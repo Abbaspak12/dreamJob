@@ -1,15 +1,22 @@
 import React from 'react'
+import {} from "./assets"
 
 const SocialMediaInfo = () => {
 
   return (
-    <div className='w-full'>
-        
-        SocialMediaInfo
+    <section className='w-full bg-[#f9fafb] text-[#111827] relative'>
+      
+        <div className='w-full px-40'>
+<div className='w-full flex justify-center'>
+
+</div>
+
+
+        </div>
 
 
 
-    </div>
+    </section>
   )
 }
 

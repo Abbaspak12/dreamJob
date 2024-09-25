@@ -70,10 +70,10 @@ const Footer = () => {
         </div>
       </div>
       <Image
-              src={footer.verticalDotGroup}
-              alt="verticalDotGroup"
-              className=" absolute top-11 right-9"
-            />
+        src={footer.verticalDotGroup}
+        alt="verticalDotGroup"
+        className=" absolute top-11 right-9"
+      />
     </footer>
   );
 };
