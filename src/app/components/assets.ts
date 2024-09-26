@@ -54,20 +54,33 @@ import router from "@/assets/image/exploreDreamStudio/router.png";
 import vector10 from "@/assets/image/exploreDreamStudio/vector10.png";
 import vector11 from "@/assets/image/exploreDreamStudio/vector11.png";
 
+//================Hero Section Image ==============
 
-
+import heroImage from "@/assets/image/heroSection/heroImage.png";
+import location2 from "@/assets/image/heroSection/location2.png";
+import vector4 from "@/assets/image/heroSection/vector4.png";
+import vector13 from "@/assets/image/heroSection/vector13.png";
+import vectorGroup13 from "@/assets/image/heroSection/vectorGroup13.png";
 
 const header = {
   logo: logoImage,
 };
-const exploreDreamStudio={
+
+const heroSection = {
+  heroImage,
+  location2,
+  vector4,
+  vector13,
+  vectorGroup13,
+};
+const exploreDreamStudio = {
   chrome,
   dataBase,
   pc,
   router,
   vector10,
-  vector11
-}
+  vector11,
+};
 
 const ourExplore = {
   admin,
@@ -77,7 +90,7 @@ const ourExplore = {
   vector7,
   vector6,
   watch,
-  vector8
+  vector8,
 };
 const ourTeam = {
   girl1,
@@ -115,4 +128,12 @@ const footer = {
   verticalDotGroup,
 };
 
-export { header, footer, socialMediaInfo, ourTeam ,ourExplore,exploreDreamStudio };
+export {
+  header,
+  footer,
+  socialMediaInfo,
+  ourTeam,
+  ourExplore,
+  exploreDreamStudio,
+  heroSection,
+};
