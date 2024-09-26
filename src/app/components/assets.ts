@@ -25,13 +25,30 @@ import vectorGroup1 from "@/assets/image/socialMediaInfo/vectorGroup1.png";
 import vectorGroup2 from "@/assets/image/socialMediaInfo/vectorGroup2.png";
 import vectorGroup3 from "@/assets/image/socialMediaInfo/vectorGroup3.png";
 import lindinWhite from "@/assets/image/socialMediaInfo/linkdinWhite.png";
-// import bWhite from "@/assets/image/socialMediaInfo/bWhite.png"
-// import bWhite from "@/assets/image/socialMediaInfo/bWhite.png"
+
+//================Our Team ==============
+import girl1 from "@/assets/image/ourTeam/girls1.png";
+import girl2 from "@/assets/image/ourTeam/girls2.png";
+import man1 from "@/assets/image/ourTeam/man1.png";
+import man2 from "@/assets/image/ourTeam/man2.png";
+import man3 from "@/assets/image/ourTeam/man3.png";
+import vectorGroup4 from "@/assets/image/ourTeam/vectorGroup4.png";
+import vectorGroup5 from "@/assets/image/ourTeam/vectorGroup5.png";
+
 
 const header = {
   logo: logoImage,
 };
 
+const ourTeam = {
+  girl1,
+  girl2,
+  man1,
+  man2,
+  man3,
+  vectorGroup4,
+  vectorGroup5,
+};
 const socialMediaInfo = {
   bWhite,
   googleWhite,
@@ -59,4 +76,4 @@ const footer = {
   verticalDotGroup,
 };
 
-export { header, footer, socialMediaInfo };
+export { header, footer, socialMediaInfo, ourTeam };
