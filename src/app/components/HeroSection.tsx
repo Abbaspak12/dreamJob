@@ -77,7 +77,7 @@ const HeroSection = () => {
             className="absolute bg-[#FFFFFF] 
 h-[112px] 
 bottom-[-58px] z-50 left-[161px] 
-w-[1400px] shadow-lg rounded-lg flex"
+w-[1013px] shadow-lg rounded-lg flex"
           >
             <div className="w-[45%] border-r border-[#D1D5DB] pl-[48px] pt-[37px] pb-[31px] flex items-center">
               <Image
@@ -98,11 +98,15 @@ w-[1400px] shadow-lg rounded-lg flex"
              px-2  focus:outline-none focus:border-none"
               />
             </div>
-            <div className="w-[17%] border-r border-[#D1D5DB] px-[36px] py-[43px]">
+            <div
+              className="w-[17%] border-r border-[#D1D5DB] flex justify-center
+             py-[43px]"
+            >
               <select
                 name="cars"
                 id="cars"
-                className="w-full text-[#374151] hover:border-none border-none
+                className=" 
+                text-[#374151] hover:border-none border-none
              px-2  focus:outline-none focus:border-none"
               >
                 <option value="volvo">Category</option>
@@ -111,12 +115,12 @@ w-[1400px] shadow-lg rounded-lg flex"
                 <option value="audi">Catagory 3</option>
               </select>
             </div>
-            <div className="w-[13%] border-r border-[#D1D5DB] px-[36px] py-[43px]">
+            <div className="w-[13%] border-r border-[#D1D5DB] mx-auto py-[43px]">
               <select
                 name="cars"
                 id="cars"
-                className="w-full text-[#374151]
-     hover:border-none border-none
+                className=" text-[#374151]
+          hover:border-none border-none
              px-2  focus:outline-none focus:border-none"
               >
                 <option value="volvo">Skills</option>

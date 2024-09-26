@@ -5,8 +5,8 @@ import logoImage from "@/assets/image/header/logo.png";
 
 const HeaderBar = () => {
   return (
-    <header className="w-full bg-[#1F2937]">
-      <div className="px-40 py-6 flex justify-between items-center">
+    <header className="w-full bg-[#1F2937] flex justify-center ">
+      <div className=" w-[80%] py-6 flex justify-between items-center">
         <div>
           <Image src={logoImage} alt="logo" />
         </div>
