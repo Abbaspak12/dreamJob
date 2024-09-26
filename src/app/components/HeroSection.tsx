@@ -67,8 +67,53 @@ const HeroSection = () => {
             className=" absolute  top-[76px] left-[142px] z-10 "
             quality={100}
           />
-<div className="absolute bg-[#FFFFFF] h-[112px] bottom-[-58px] z-50 left-[161px] w-[1400px] shadow-lg rounded-lg">
-    
+<div className="absolute bg-[#FFFFFF] 
+h-[112px] 
+bottom-[-58px] z-50 left-[161px] 
+w-[1400px] shadow-lg rounded-lg flex">
+    <div className="w-[45%] border-r border-[#D1D5DB] pl-[48px] pt-[37px] pb-[31px] flex items-center">
+
+           <Image
+            src={heroSection.location2}
+            alt="location2"
+            className=" "
+            quality={100}
+          />
+            <h1 className="text-[#374151] fon text-[18px] leading-[28px] pl-4 ">
+            Location  
+            </h1>
+            <span className="w-[2.2px] h-[20px] bg-[#34D399] mx-2"/>
+
+            <input id="locationName" 
+            placeholder="Enter Your Location Here!" 
+            className="hover:border-none border-none
+             px-2  focus:outline-none focus:border-none"/>
+    </div>
+    <div className="w-[17%] border-r border-[#D1D5DB] px-[36px] py-[43px]">
+    <select name="cars" id="cars" className="w-full text-[#374151] hover:border-none border-none
+             px-2  focus:outline-none focus:border-none">
+    <option value="volvo">Category</option>
+    <option value="saab">Catagory 1</option>
+    <option value="opel">Catagory 2</option>
+    <option value="audi">Catagory 3</option>
+  </select>
+    </div>
+    <div className="w-[13%] border-r border-[#D1D5DB] px-[36px] py-[43px]">
+    <select name="cars" id="cars" className="w-full text-[#374151]
+     hover:border-none border-none
+             px-2  focus:outline-none focus:border-none">
+    <option value="volvo">Skills</option>
+    <option value="saab">Skills 1</option>
+    <option value="opel">Skills 2</option>
+    <option value="audi">Skills 3</option>
+  </select>
+    </div>
+    <div className="w-[25%] text-center my-auto">
+    <button className="bg-[#10B981] px-12 py-[14px]
+     text-[#FFFFFF] rounded-lg font-medium text-[18px] hover:scale-105 transition-all">
+      Search
+          </button>
+    </div>
 </div>
         </div>
         <div className="w-[50%] h-[850px] bg-[#1F2937] ">

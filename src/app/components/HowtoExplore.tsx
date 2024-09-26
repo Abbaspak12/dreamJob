@@ -5,7 +5,7 @@ import Image from "next/image";
 const HowtoExplore = () => {
   return (
     <section className="w-full bg-[#f9fafb] text-[#374151] relative flex  pt-40">
-      <div className="w-[50%] h-[810px] relative">
+      <div className="w-[50%] h-[1200px] relative">
         <Image
           src={ourExplore.aimHigh}
           alt="aimHigh"
