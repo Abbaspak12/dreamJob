@@ -15,7 +15,7 @@ import verticalDotGroup from "@/assets/image/footer/verticalDotGroup.png";
 import bWhite from "@/assets/image/socialMediaInfo/bWhite.png";
 import facebookwhite from "@/assets/image/socialMediaInfo/facebookwhite.png";
 import googleWhite from "@/assets/image/socialMediaInfo/googleWhite.png";
-import instagramWhite from "@/assets/image/socialMediaInfo/instagramWhite.png";
+import instagramWhite from "@/assets/image/socialMediaInfo/instaWhite.png";
 import pWhite from "@/assets/image/socialMediaInfo/pWhite.png";
 import socail2 from "@/assets/image/socialMediaInfo/socail2.png";
 import social1 from "@/assets/image/socialMediaInfo/social1.png";
@@ -24,7 +24,7 @@ import Vector from "@/assets/image/socialMediaInfo/Vector.png";
 import vectorGroup1 from "@/assets/image/socialMediaInfo/vectorGroup1.png";
 import vectorGroup2 from "@/assets/image/socialMediaInfo/vectorGroup2.png";
 import vectorGroup3 from "@/assets/image/socialMediaInfo/vectorGroup3.png";
-import whiteInstagram from "@/assets/image/socialMediaInfo/whiteInstagram.png";
+import lindinWhite from "@/assets/image/socialMediaInfo/linkdinWhite.png";
 // import bWhite from "@/assets/image/socialMediaInfo/bWhite.png"
 // import bWhite from "@/assets/image/socialMediaInfo/bWhite.png"
 
@@ -45,7 +45,7 @@ const socialMediaInfo = {
   vectorGroup1,
   vectorGroup2,
   vectorGroup3,
-  whiteInstagram,
+  lindinWhite,
 };
 
 const footer = {
