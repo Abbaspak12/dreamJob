@@ -65,7 +65,7 @@ const OurTeam = () => {
             {clientsReview.slice(0, 3).map((item, index) => {
               return (
                 <div
-                  className="w-[329px] px-[33px] relative shadow-lg  rounded-xl "
+                  className="w-[329px] px-[33px] relative shadow-lg  rounded-xl cursor-pointer hover:scale-105 transition-all"
                   key={index}
                 >
                   <h1 className="text-[#374151] font-bold text-[24px] leading-10 pt-[84px] text-center">
@@ -95,7 +95,7 @@ const OurTeam = () => {
             {clientsReview.slice(3, 6).map((item, index) => {
               return (
                 <div
-                  className="w-[329px] px-[33px] relative shadow-lg  rounded-xl "
+                  className="w-[329px] px-[33px] relative shadow-lg  rounded-xl cursor-pointer hover:scale-105 transition-all"
                   key={index}
                 >
                   <h1 className="text-[#374151] font-bold text-[24px] leading-10 pt-[84px] text-center">

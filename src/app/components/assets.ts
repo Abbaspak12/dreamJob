@@ -45,11 +45,30 @@ import vector6 from "@/assets/image/howToExplore/vector6.png";
 import vector8 from "@/assets/image/howToExplore/vector8.png";
 import watch from "@/assets/image/howToExplore/watch.png";
 
+//================Explore Dream Studio ==============
+
+import chrome from "@/assets/image/exploreDreamStudio/chrome.png";
+import dataBase from "@/assets/image/exploreDreamStudio/dataBase.png";
+import pc from "@/assets/image/exploreDreamStudio/pc.png";
+import router from "@/assets/image/exploreDreamStudio/router.png";
+import vector10 from "@/assets/image/exploreDreamStudio/vector10.png";
+import vector11 from "@/assets/image/exploreDreamStudio/vector11.png";
+
+
 
 
 const header = {
   logo: logoImage,
 };
+const exploreDreamStudio={
+  chrome,
+  dataBase,
+  pc,
+  router,
+  vector10,
+  vector11
+}
+
 const ourExplore = {
   admin,
   aimHigh,
@@ -96,4 +115,4 @@ const footer = {
   verticalDotGroup,
 };
 
-export { header, footer, socialMediaInfo, ourTeam ,ourExplore };
+export { header, footer, socialMediaInfo, ourTeam ,ourExplore,exploreDreamStudio };
