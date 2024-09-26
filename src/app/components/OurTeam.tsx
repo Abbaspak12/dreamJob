@@ -130,7 +130,7 @@ const OurTeam = () => {
         alt="man1"
         className="absolute left-[33px] top-[31px] w-[234px] h-[248px]  "
       />
-      
+
       <Image
         src={ourTeam.vectorGroup4}
         alt="man1"

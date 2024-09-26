@@ -35,6 +35,24 @@ import man2 from "@/assets/image/ourTeam/man2.png";
 import vectorGroup4 from "@/assets/image/ourTeam/vectorGroup4.png";
 import vectorGroup5 from "@/assets/image/ourTeam/vectorGroup5.png";
 
+//================Our Explore ==============
+import admin from "@/assets/image/howToExplore/admin.png";
+import aimHigh from "@/assets/image/howToExplore/aimHigh.png";
+import location1 from "@/assets/image/howToExplore/location1.png";
+import pocket from "@/assets/image/howToExplore/pocket.png";
+import vector7 from "@/assets/image/howToExplore/vector7.png";
+import vector6 from "@/assets/image/howToExplore/vector6.png";
+import watch from "@/assets/image/howToExplore/watch.png";
+
+const ourExplore = {
+  admin,
+  aimHigh,
+  location1,
+  pocket,
+  vector7,
+  vector6,
+  watch,
+};
 
 const header = {
   logo: logoImage,
@@ -76,4 +94,4 @@ const footer = {
   verticalDotGroup,
 };
 
-export { header, footer, socialMediaInfo, ourTeam };
+export { header, footer, socialMediaInfo, ourTeam ,ourExplore };
