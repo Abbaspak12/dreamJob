@@ -22,7 +22,7 @@ const Footer = () => {
           <Image
             src={footer.google}
             alt="google"
-            className="cursor-pointer hover:scale-110 transition-all "
+            className="cursor-pointer hover:scale-110 transition-all  "
           />
           <Image
             src={footer.facebook}

@@ -18,54 +18,74 @@ const SocialMediaInfo = () => {
           </p>
         </div>
         <div className="pt-20 flex flex-wrap justify-center  gap-[30px]">
-          <Image src={socialMediaInfo.bWhite} alt="bWhite" className="" />
-          <Image src={socialMediaInfo.socail2} alt="social2" className="" />
+          <Image
+            src={socialMediaInfo.bWhite}
+            alt="bWhite"
+            className=" w-[91px] h-[91px] cursor-pointer hover:scale-110 transition-all"
+          />
+          <Image
+            src={socialMediaInfo.socail2}
+            alt="social2"
+            className=" w-[91px] h-[91px] cursor-pointer hover:scale-110 transition-all"
+          />
           <Image
             src={socialMediaInfo.googleWhite}
             alt="googleWhite"
-            className=""
+            className=" w-[91px] h-[91px] cursor-pointer hover:scale-110 transition-all"
           />
           <Image
             src={socialMediaInfo.facebookwhite}
             alt="facebookwhite"
-            className=""
+            className=" w-[91px] h-[91px] cursor-pointer hover:scale-110 transition-all"
           />
           <Image
             src={socialMediaInfo.tuttorwhite}
             alt="googleWhite"
-            className=""
+            className=" w-[91px] h-[91px] cursor-pointer hover:scale-110 transition-all"
           />
           <Image
             src={socialMediaInfo.lindinWhite}
             alt="tuttorwhite"
-            className=""
+            className=" w-[91px] h-[91px] cursor-pointer hover:scale-110 transition-all"
           />
           <Image
             src={socialMediaInfo.instagramWhite}
             alt="instagramWhite"
-            className=""
+            className=" w-[91px] h-[91px] cursor-pointer hover:scale-110 transition-all"
           />
         </div>
-        <div className="pt-5 flex flex-wrap justify-center  gap-[30px] pb-40">
-          <Image src={socialMediaInfo.social1} alt="social1" className="" />
+        <div className="pt-5 flex flex-wrap justify-center  gap-[30px] pb-40 ">
+          <Image
+            src={socialMediaInfo.social1}
+            alt="social1"
+            className=" w-[91px] h-[91px] cursor-pointer hover:scale-110 transition-all"
+          />
           <Image
             src={socialMediaInfo.tuttorwhite}
             alt="tuttorwhite"
-            className=""
+            className=" w-[91px] h-[91px] cursor-pointer hover:scale-110 transition-all"
           />
-          <Image src={socialMediaInfo.pWhite} alt="pWhite" className="" />
+          <Image
+            src={socialMediaInfo.pWhite}
+            alt="pWhite"
+            className=" w-[91px] h-[91px] cursor-pointer hover:scale-110 transition-all"
+          />
           <Image
             src={socialMediaInfo.instagramWhite}
             alt="instagramWhite"
-            className=""
+            className=" w-[91px] h-[91px] cursor-pointer hover:scale-110 transition-all"
           />
-          <Image src={socialMediaInfo.bWhite} alt="bWhite" className="" />
+          <Image
+            src={socialMediaInfo.bWhite}
+            alt="bWhite"
+            className=" w-[91px] h-[91px] cursor-pointer hover:scale-110 transition-all"
+          />
         </div>
       </div>
       <Image
         src={socialMediaInfo.vectorGroup3}
         alt="vectorGroup3"
-        className="absolute left-[117px] top-[124px]"
+        className="absolute left-[117px] top-[124px] "
       />
       <Image
         src={socialMediaInfo.vectorGroup2}
