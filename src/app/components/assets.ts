@@ -30,8 +30,8 @@ import lindinWhite from "@/assets/image/socialMediaInfo/linkdinWhite.png";
 import girl1 from "@/assets/image/ourTeam/girls1.png";
 import girl2 from "@/assets/image/ourTeam/girls2.png";
 import man1 from "@/assets/image/ourTeam/man1.png";
+import girls3 from "@/assets/image/ourTeam/girls3.png";
 import man2 from "@/assets/image/ourTeam/man2.png";
-import man3 from "@/assets/image/ourTeam/man3.png";
 import vectorGroup4 from "@/assets/image/ourTeam/vectorGroup4.png";
 import vectorGroup5 from "@/assets/image/ourTeam/vectorGroup5.png";
 
@@ -44,8 +44,8 @@ const ourTeam = {
   girl1,
   girl2,
   man1,
+  girls3,
   man2,
-  man3,
   vectorGroup4,
   vectorGroup5,
 };
