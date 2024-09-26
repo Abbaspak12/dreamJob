@@ -42,8 +42,14 @@ import location1 from "@/assets/image/howToExplore/location1.png";
 import pocket from "@/assets/image/howToExplore/pocket.png";
 import vector7 from "@/assets/image/howToExplore/vector7.png";
 import vector6 from "@/assets/image/howToExplore/vector6.png";
+import vector8 from "@/assets/image/howToExplore/vector8.png";
 import watch from "@/assets/image/howToExplore/watch.png";
 
+
+
+const header = {
+  logo: logoImage,
+};
 const ourExplore = {
   admin,
   aimHigh,
@@ -52,12 +58,8 @@ const ourExplore = {
   vector7,
   vector6,
   watch,
+  vector8
 };
-
-const header = {
-  logo: logoImage,
-};
-
 const ourTeam = {
   girl1,
   girl2,
