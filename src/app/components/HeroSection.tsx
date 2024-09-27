@@ -151,8 +151,6 @@ const HeroSection = () => {
         <div
           className="absolute
                   bg-whiteColor 
-                  
-
                 z-50 
               w-[92%] left-[20px] bottom-[-350px]
              xs:w-[92%] xs:left-[10px] xs:h-auto xs:bottom-[-58px] 

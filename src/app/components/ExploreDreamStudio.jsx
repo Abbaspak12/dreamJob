@@ -30,18 +30,27 @@ const ExploreDreamStudio = () => {
     },
   ];
   return (
-    <section className="w-full bg-[#f9fafb]  relative">
-      <div className="px-40 ">
+    <section className="w-full bg-[#f9fafb] flex justify-center relative">
+      <div className="w-[90%] lg:w-[80%]">
         <div className="w-full text-center pt-40">
           <h1 className="text-[#10B981] font-extrabold text-[36px] leading-9 ">
             Explore Dream Studio
           </h1>
         </div>
-        <div className="flex w-full gap-[20px] p-3 pt-20">
+        <div className="flex w-full gap-3 xl:gap-[20px] p-3 pt-20 xl:flex-nowrap  flex-wrap">
           {exploreList.map((item, index) => {
             return (
               <div
-                className="w-[20%] hover:shadow-lg hover:scale-105 transition-all rounded-xl"
+                className="
+                2xl:w-[19.5%] 
+                xl:w-[23.5%]
+                lg:w-[32%]
+                md:w-[49%]
+                sm:w-[48.5%]
+                xs:w-[100%]
+                w-[100%]
+             
+                hover:shadow-xl hover:scale-105 transition-all rounded-xl"
                 key={index}
               >
                 <h1 className="text-[#374151] font-bold text-[24px] leading-6  text-center pt-[31px]">
@@ -64,7 +73,10 @@ const ExploreDreamStudio = () => {
       <Image
         src={exploreDreamStudio.vector11}
         alt="vector11"
-        className="absolute top-[56px] left-[154px]"
+        className="absolute 
+        top-[20px] left-[50px]
+        md:top-[56px] md:left-[154px]
+        "
         quality={100}
       />
       <Image
