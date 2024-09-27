@@ -1,36 +1,40 @@
 import React from "react";
 import { BiDotsHorizontalRounded } from "react-icons/bi";
+import { FiAlignJustify } from "react-icons/fi";
+import { header } from "./assets";
 import Image from "next/image";
-import logoImage from "@/assets/image/header/logo.png";
 
 const HeaderBar = () => {
   return (
-    <header className="w-full bg-[#1F2937] flex justify-center ">
-      <div className=" w-[80%] py-6 flex justify-between items-center">
-        <div>
-          <Image src={logoImage} alt="logo" />
-        </div>
-        <div className="flex justify-end gap-10">
-          <h1 className="font-semibold text-[18px] text-[#FFFFFF] cursor-pointer">
-            Product
-          </h1>
-          <BiDotsHorizontalRounded className=" text-[#FFFFFF]" size={30} />
-          <h1 className="font-semibold text-[18px] text-[#FFFFFF] cursor-pointer">
+    <header
+      className={`w-full bg-liteBlack
+     text-whiteColor flex justify-center`}
+    >
+      <div className="w-[90%] lg:w-[80%] py-6 flex justify-between items-center">
+        <Image src={header.logo} alt="logo" quality={100} />
+        <div className="lg:flex justify-end gap-10 hidden lg:shadow">
+          <h1 className="font-semibold text-[18px]  cursor-pointer">Product</h1>
+          <BiDotsHorizontalRounded className=" " size={30} />
+          <h1 className="font-semibold text-[18px]  cursor-pointer">
             Performance
           </h1>
-          <BiDotsHorizontalRounded className=" text-[#FFFFFF]" size={30} />
-          <h1 className="font-semibold text-[18px] text-[#FFFFFF] cursor-pointer">
+          <BiDotsHorizontalRounded className=" " size={30} />
+          <h1 className="font-semibold text-[18px]  cursor-pointer">
             Dashboard
           </h1>
         </div>
-        <div className="flex gap-9">
-          <button className="text-[#34D399]  font-semibold text-[18px]">
+        <div className="lg:flex  gap-9 hidden lg:shadow ">
+          <button className="text-liteGreen  font-semibold text-[18px]">
             Login
           </button>
-          <button className="bg-[#10B981] px-7 py-[10px] text-[#FFFFFF] rounded-lg font-medium text-[18px]">
+          <button
+            className="bg-liteGreen px-7 py-[10px]
+           text-[#FFFFFF] rounded-lg font-medium text-[18px]"
+          >
             Sign Up
           </button>
         </div>
+        <FiAlignJustify className=" lg:hidden cursor-pointer" size={40} />
       </div>
     </header>
   );

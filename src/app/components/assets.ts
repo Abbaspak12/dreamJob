@@ -57,10 +57,10 @@ import vector11 from "@/assets/image/exploreDreamStudio/vector11.png";
 //================Hero Section Image ==============
 
 import heroImage from "@/assets/image/heroSection/heroImage.png";
-import location2 from "@/assets/image/heroSection/location2.png";
-import vector4 from "@/assets/image/heroSection/vector4.png";
-import vector13 from "@/assets/image/heroSection/vector13.png";
-import vectorGroup13 from "@/assets/image/heroSection/vectorGroup13.png";
+import location2 from "@/assets/image/heroSection/location2.svg";
+import vector4 from "@/assets/image/heroSection/vector4.svg";
+import vector13 from "@/assets/image/heroSection/vector13.svg";
+import vectorGroup13 from "@/assets/image/heroSection/vectorGroup13.svg";
 
 const header = {
   logo: logoImage,

@@ -4,151 +4,293 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <div className="w-full  text-[#374151] bg-[#f9fafb] relative ">
-      <div className=" w-full flex box-content">
-        <div className="w-[50%] h-[716px] bg-[#1F2937] relative">
-          <div className="pl-[160px] pr-[133px] pt-[128px]">
-            <h1 className="text-[#FFFFFF] font-black text-[60px] leading-[60px]  ">
-              Your Dream Job is waiting for you!
-              <Image
-                src={heroSection.vectorGroup13}
-                alt="aimHigh"
-                className=""
-                quality={100}
-              />
-            </h1>
-            <p className="text-[#FFFFFF] font-normal leading-[28px] text-[18px] pt-8">
-              Finding a Job that matches your skills & interest is a lot easier
-              now, You can browse the Jobs & apply whenever & wherever you want.
-            </p>
-            <div className="w-full flex pt-[34px] gap-[32px]">
-              '
-              <label className="inline-flex items-center cursor-pointer">
-                <span className="text-[#FFFFFF] font-normal text-[18px] pr-4">
-                  Remote
-                </span>
-                <input type="checkbox" value="" className="sr-only peer " />
-                <div
-                  className="relative w-[50px] h-6 bg-[#FFFFFF] peer-focus:outline-none peer-focus:ring-4
-                   rounded-full peer
-                  dark:bg-[#FFFFFF] peer-checked:after:translate-x-full
-                   rtl:peer-checked:after:-translate-x-full peer-checked:after:border-green-400 after:content-[''] 
-                   after:absolute after:top-[2px] after:start-[2px] after:bg-green-400  after:border-gray-300 
-                   after:border after:rounded-full after:h-5 after:w-5 after:transition-all 
-                   "
-                ></div>
-              </label>
-              <label className="inline-flex items-center cursor-pointer">
-                <span className="text-[#FFFFFF] font-normal text-[18px] pr-4">
-                  Onsite
-                </span>
-                <input type="checkbox" value="" className="sr-only peer " />
-                <div
-                  className="relative w-[50px] h-6 bg-[#FFFFFF] peer-focus:outline-none peer-focus:ring-4
-                   rounded-full peer
-                  dark:bg-[#FFFFFF] peer-checked:after:translate-x-full
-                   rtl:peer-checked:after:-translate-x-full peer-checked:after:border-green-400 after:content-[''] 
-                   after:absolute after:top-[2px] after:start-[2px] after:bg-green-400  after:border-gray-300 
-                   after:border after:rounded-full after:h-5 after:w-5 after:transition-all 
-                   "
-                ></div>
-              </label>
-            </div>
-          </div>
-          <Image
-            src={heroSection.vector4}
-            alt="aimHigh"
-            className=" absolute  bottom-[98px] left-[134px] "
-            quality={100}
-          />
-          <Image
-            src={heroSection.vector4}
-            alt="vector4"
-            className=" absolute  top-[96px] right-[-55px] z-10 "
-            quality={100}
-          />
-          <Image
-            src={heroSection.vectorGroup13}
-            alt="aimHigh"
-            className=" absolute  top-[76px] left-[142px] z-10 "
-            quality={100}
-          />
-          <div
-            className="absolute bg-[#FFFFFF] 
-h-[112px] 
-bottom-[-58px] z-50 left-[161px] 
-w-[1013px] shadow-lg rounded-lg flex"
+    <div
+      className="  flex flex-wrap
+     bg-[#f9fafb] w-full 
+     text-liteBlack  relative box-border"
+    >
+      <div
+        className="
+      w-[100%]  h-[500px]
+     xs:h-[500px] xs:w-[100%]
+     sm:h-[500px] sm:w-[100%]
+     md:h-[530px] md:w-[100%]
+     lg:h-[720px] lg:w-[50%]
+     xl:h-[720px] xl:w-[50%]
+     2xl:h-[720px] 2xl:w-[50%]
+       bg-liteBlack relative flex justify-center"
+      >
+        <div
+          className="
+       w-[60%]
+       xs:w-[90%]
+        sm:w-[90%]
+        md:w-[80%]
+       lg:w-[60%]
+       2xl:w-[60%]
+      pt-[80px] 
+        2xl:pt-[140px]"
+        >
+          <h1
+            className="text-whiteColor font-black 
+          text-[24px] leading-[24px] 
+           sm:text-[25px] sm:leading-[25px]
+           md:text-[32px] md:leading-[32px]
+          lg:text-[45px] lg:leading-[45px] 
+          xl:text-[55px] xl:leading-[55px] 
+           2xl:text-[60px]  2xl:leading-[60px] 
+         
+         
+            
+            "
           >
-            <div className="w-[45%] border-r border-[#D1D5DB] pl-[48px] pt-[37px] pb-[31px] flex items-center">
-              <Image
-                src={heroSection.location2}
-                alt="location2"
-                className=" "
-                quality={100}
-              />
-              <h1 className="text-[#374151] fon text-[18px] leading-[28px] pl-4 ">
-                Location
-              </h1>
-              <span className="w-[2.2px] h-[20px] bg-[#34D399] mx-2" />
-
-              <input
-                id="locationName"
-                placeholder="Enter Your Location Here!"
-                className="hover:border-none border-none
-             px-2  focus:outline-none focus:border-none"
-              />
-            </div>
-            <div
-              className="w-[17%] border-r border-[#D1D5DB] flex justify-center
-             py-[43px]"
-            >
-              <select
-                name="cars"
-                id="cars"
-                className=" 
-                text-[#374151] hover:border-none border-none
-             px-2  focus:outline-none focus:border-none"
-              >
-                <option value="volvo">Category</option>
-                <option value="saab">Catagory 1</option>
-                <option value="opel">Catagory 2</option>
-                <option value="audi">Catagory 3</option>
-              </select>
-            </div>
-            <div className="w-[13%] border-r border-[#D1D5DB] mx-auto py-[43px]">
-              <select
-                name="cars"
-                id="cars"
-                className=" text-[#374151]
-          hover:border-none border-none
-             px-2  focus:outline-none focus:border-none"
-              >
-                <option value="volvo">Skills</option>
-                <option value="saab">Skills 1</option>
-                <option value="opel">Skills 2</option>
-                <option value="audi">Skills 3</option>
-              </select>
-            </div>
-            <div className="w-[25%] text-center my-auto">
-              <button
-                className="bg-[#10B981] px-12 py-[14px]
-     text-[#FFFFFF] rounded-lg font-medium text-[18px] hover:scale-105 transition-all"
-              >
-                Search
-              </button>
-            </div>
+            Your Dream Job is waiting for you!
+            <Image
+              src={heroSection.vector13}
+              alt="aimHigh"
+              className="inline ml-2 mt-5"
+              quality={100}
+            />
+          </h1>
+          <p
+            className="text-[#FFFFFF] 
+          font-normal
+        
+           text-[16px] leading-[24px]
+           sm:text-[16px] sm:leading-[24px]
+           md:text-[16px] md:leading-[24px]
+          lg:text-[18px] lg:leading-[28px] 
+          xl:text-[20px] xl:leading-[30px] 
+          2xl:text-[20px] 2xl:leading-[32px] 
+           pt-8"
+          >
+            Finding a Job that matches your skills & interest is a lot easier
+            now, You can browse the Jobs & apply whenever & wherever you want.
+          </p>
+          <div className="w-full flex pt-[34px] gap-[32px]">
+            '
+            <label className="inline-flex items-center cursor-pointer">
+              <span className="text-[#FFFFFF] font-normal text-[18px] pr-4">
+                Remote
+              </span>
+              <input type="checkbox" value="" className="sr-only peer " />
+              <div
+                className="relative w-[50px] h-6 bg-[#FFFFFF] peer-focus:outline-none peer-focus:ring-4
+               rounded-full peer
+              dark:bg-[#FFFFFF] peer-checked:after:translate-x-full
+               rtl:peer-checked:after:-translate-x-full peer-checked:after:border-green-400 after:content-[''] 
+               after:absolute after:top-[2px] after:start-[2px] after:bg-green-400  after:border-gray-300 
+               after:border after:rounded-full after:h-5 after:w-5 after:transition-all 
+               "
+              ></div>
+            </label>
+            <label className="inline-flex items-center cursor-pointer">
+              <span className="text-[#FFFFFF] font-normal text-[18px] pr-4">
+                Onsite
+              </span>
+              <input type="checkbox" value="" className="sr-only peer " />
+              <div
+                className="relative w-[50px] h-6 bg-[#FFFFFF] peer-focus:outline-none peer-focus:ring-4
+               rounded-full peer
+              dark:bg-[#FFFFFF] peer-checked:after:translate-x-full
+               rtl:peer-checked:after:-translate-x-full peer-checked:after:border-green-400 after:content-[''] 
+               after:absolute after:top-[2px] after:start-[2px] after:bg-green-400  after:border-gray-300 
+               after:border after:rounded-full after:h-5 after:w-5 after:transition-all 
+               "
+              ></div>
+            </label>
           </div>
         </div>
-        <div className="w-[50%] h-[850px] bg-[#1F2937] ">
-          <Image
-            src={heroSection.heroImage}
-            alt="aimHigh"
-            width={500}
-            height={500}
-            className="w-full  "
-            quality={100}
-          />
+        <Image
+          src={heroSection.vector4}
+          alt="vector4"
+          className="
+           absolute 
+           top-[10px] right-[55px]
+           xs:top-[10px] xs:right-[55px]
+           sm:top-[10px] sm:right-[55px]
+           md:top-[10px] md:right-[55px]
+           lg:top-[70px] lg:right-[ -55px]
+           xl:top-[70px] xl:right-[-55px]
+           2xl:top-[70px] 2xl:right-[-55px]
+           z-10 
+           "
+          quality={100}
+        />
+        <Image
+          src={heroSection.vectorGroup13}
+          alt="aimHigh"
+          className=" absolute  
+          top-[15px] left-[40px] 
+          xs:left-[40px] xs:top-[15px]
+          sm:left-[20px] sm:top-[20px]
+          md:left-[40px] md:top-[20px]
+          lg:left-[100px]
+          xl:left-[110px]
+          2xl:left-[140px] 
+       
+           z-10  w-[112px] h-[50px]"
+          quality={100}
+        />
+        <Image
+          src={heroSection.vector4}
+          alt="aimHigh"
+          className=" absolute  
+       
+          bottom-[100px] left-[134px] 
+            xs:bottom-[100px] xs:left-[134px] 
+            sm:bottom-[100px] sm:left-[134px] 
+            md:bottom-[160px] md:left-[40px] 
+            lg:bottom-[100px] lg:left-[134px] 
+            xl:bottom-[100px] xl:left-[134px] 
+            2xl:bottom-[100px] 2xl:left-[134px] 
+          w-[111px] 
+          h-[60px]"
+          quality={100}
+        />
+        <div
+          className="absolute
+                  bg-whiteColor 
+                  
+
+                z-50 
+              w-[92%] left-[20px] bottom-[-350px]
+             xs:w-[92%] xs:left-[10px] xs:h-auto xs:bottom-[-58px] 
+             sm:w-[80%] sm:left-[65px] sm:h-auto sm:bottom-[-58px] 
+             md:w-[80%] md:left-[100px] md:h-auto md:bottom-[-58px] 
+             lg:w-[150%] lg:left-[161px] lg:h-[112px] lg:bottom-[-58px] 
+             xl:w-[150%] xl:left-[161px] 
+             2xl:w-[150%] 2xl:left-[161px] 
+             shadow-lg rounded-lg flex flex-wrap"
+        >
+          <div
+            className="
+             w-[100%]
+             md:w-[50%]
+            lg:w-[45%] 
+            2xl:w-[45%] 
+             border-r 
+          border-[#D1D5DB] 
+          pl-[10px] 
+          xs:pl-[10px] 
+          lg:pl-[48px] 
+          pt-[37px] 
+          pb-[31px] 
+          flex items-center"
+          >
+            <Image
+              src={heroSection.location2}
+              alt="location2"
+              className=" "
+              quality={100}
+            />
+            <h1
+              className="
+            text-[#374151] 
+            font-normal 
+            text-[18px] 
+            leading-[28px] 
+            pl-1
+            lg:pl-4
+             "
+            >
+              Location
+            </h1>
+            <span className="w-[2.2px] h-[20px] bg-[#34D399] mx-0.5 lg:mx-2" />
+
+            <input
+              id="locationName"
+              placeholder="Enter Your Location Here!"
+              className="hover:border-none border-none
+         px-2  focus:outline-none focus:border-none"
+            />
+          </div>
+          <div
+            className="
+          w-[50%]
+            
+            sm:w-[35%]
+            md:w-[25%]
+            lg:w-[17%] 
+            
+            border-r border-[#D1D5DB] flex justify-center
+         py-[43px]"
+          >
+            <select
+              name="cars"
+              id="cars"
+              className=" 
+            text-[#374151] hover:border-none border-none
+         px-2  focus:outline-none focus:border-none"
+            >
+              <option value="volvo">Category</option>
+              <option value="saab">Catagory 1</option>
+              <option value="opel">Catagory 2</option>
+              <option value="audi">Catagory 3</option>
+            </select>
+          </div>
+          <div
+            className="
+            w-[50%] 
+            sm:w-[35%]
+            md:w-[25%]
+            lg:w-[13%]
+
+              border-r border-[#D1D5DB] flex justify-center
+         py-[43px]"
+          >
+            <select
+              name="cars"
+              id="cars"
+              className=" text-[#374151]
+      hover:border-none border-none
+         px-2  focus:outline-none focus:border-none"
+            >
+              <option value="volvo">Skills</option>
+              <option value="saab">Skills 1</option>
+              <option value="opel">Skills 2</option>
+              <option value="audi">Skills 3</option>
+            </select>
+          </div>
+
+          <div
+            className="
+          w-[100%]
+          sm:w-[30%]
+          md:w-[30%]
+          lg:w-[25%]
+           text-center my-auto mx-auto lg:pb-0 pb-5"
+          >
+            <button
+              className="bg-[#10B981]  px-6 lg:px-12 py-[14px]
+ text-[#FFFFFF] rounded-lg font-medium text-[18px] hover:scale-105 transition-all"
+            >
+              Search
+            </button>
+          </div>
         </div>
+      </div>
+
+      <div
+        className="
+       w-[100%] h-auto
+       xs:h-auto xs:w-[100%]
+       sm:h-auto sm:w-[100%]
+       md:h-auto md:w-[100%]
+       lg:h-[850px] lg:w-[50%]
+       xl:h-[850px] xl:w-[50%]
+      2xl:h-[850px] 2xl:w-[50%]
+      
+      bg-liteBlack "
+      >
+        <Image
+          src={heroSection.heroImage}
+          alt="aimHigh"
+          width={500}
+          height={500}
+          className="w-[100%] h-[100%] object-fill "
+          quality={100}
+        />
       </div>
     </div>
   );
