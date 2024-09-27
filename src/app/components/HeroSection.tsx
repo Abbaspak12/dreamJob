@@ -63,7 +63,7 @@ const HeroSection = () => {
             Finding a Job that matches your skills & interest is a lot easier
             now, You can browse the Jobs & apply whenever & wherever you want.
           </p>
-          <div className="w-full flex pt-[34px] gap-[32px]">
+          <div className="w-full flex pt-[34px] gap-[32px] sm:ml-0 ml-[-50px]">
             '
             <label className="inline-flex items-center cursor-pointer">
               <span className="text-[#FFFFFF] font-normal text-[18px] pr-4">
