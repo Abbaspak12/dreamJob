@@ -110,7 +110,7 @@ const HeroSection = () => {
            xs:top-[10px] xs:right-[55px]
            sm:top-[10px] sm:right-[55px]
            md:top-[10px] md:right-[55px]
-           lg:top-[70px] lg:right-[ -55px]
+           lg:top-[70px] lg:right-[-55px]
            xl:top-[70px] xl:right-[-55px]
            2xl:top-[70px] 2xl:right-[-55px]
            z-10 
