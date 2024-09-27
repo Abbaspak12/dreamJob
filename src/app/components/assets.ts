@@ -2,14 +2,14 @@
 import logoImage from "@/assets/image/header/logo.png";
 
 //================footer ==============
-import email from "@/assets/image/footer/email.png";
-import facebook from "@/assets/image/footer/facebook.png";
-import instagram from "@/assets/image/footer/instagram.png";
-import location from "@/assets/image/footer/location.png";
-import mobile from "@/assets/image/footer/mobile.png";
-import twitter from "@/assets/image/footer/twitter.png";
-import google from "@/assets/image/footer/google.png";
-import verticalDotGroup from "@/assets/image/footer/verticalDotGroup.png";
+import email from "@/assets/image/footer/email.svg";
+import facebook from "@/assets/image/footer/facebook.svg";
+import instagram from "@/assets/image/footer/instagram.svg";
+import location from "@/assets/image/footer/location.svg";
+import mobile from "@/assets/image/footer/mobile.svg";
+import twitter from "@/assets/image/footer/twitter.svg";
+import google from "@/assets/image/footer/google.svg";
+import verticalDotGroup from "@/assets/image/footer/verticalDotGroup.svg";
 
 //================Social media Info ==============
 import bWhite from "@/assets/image/socialMediaInfo/bWhite.png";

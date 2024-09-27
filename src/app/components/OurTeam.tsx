@@ -152,7 +152,8 @@ const OurTeam = () => {
          rotate-[90deg] lg:w-auto 
          lg:h-auto 
          md:w-[140px]
-        w-[120px] 
+         w-[120px] 
+    
         h-auto "
       />
 
@@ -164,10 +165,12 @@ const OurTeam = () => {
       
       
         lg:right-[116px]    lg:top-[77px] 
-         sm:w-[100px]  w-[100px]
+        w-[100px]
+         sm:w-[100px] 
+        
          md:w-[150px]
         lg:w-auto
-     
+      
         "
       />
     </section>
