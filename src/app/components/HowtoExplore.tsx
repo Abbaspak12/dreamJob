@@ -71,7 +71,7 @@ const HowtoExplore = () => {
         </div>
 
         <div className="w-full flex items-center gap-[54px] pt-[40px] flex-wrap">
-          <div className="flex gap-3 flex-wrap">
+          <div className="flex gap-3 ">
             <Image
               src={ourExplore.location1}
               alt="location1"
@@ -87,7 +87,7 @@ const HowtoExplore = () => {
               </p>
             </div>
           </div>
-          <div className="flex gap-3 flex-wrap">
+          <div className="flex gap-3 ">
             <Image
               src={ourExplore.pocket}
               alt="pocket"
