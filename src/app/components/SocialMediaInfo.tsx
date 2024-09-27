@@ -3,9 +3,51 @@ import Image from "next/image";
 import { socialMediaInfo } from "./assets";
 
 const SocialMediaInfo = () => {
+  const socialMediaList = [
+    {
+      ImagePath: socialMediaInfo.bWhite,
+    },
+    {
+      ImagePath: socialMediaInfo.socail2,
+    },
+    {
+      ImagePath: socialMediaInfo.googleWhite,
+    },
+    {
+      ImagePath: socialMediaInfo.facebookwhite,
+    },
+    {
+      ImagePath: socialMediaInfo.tuttorwhite,
+    },
+    {
+      ImagePath: socialMediaInfo.tuttorwhite,
+    },
+    {
+      ImagePath: socialMediaInfo.lindinWhite,
+    },
+    {
+      ImagePath: socialMediaInfo.lindinWhite,
+    },
+    {
+      ImagePath: socialMediaInfo.instagramWhite,
+    },
+    {
+      ImagePath: socialMediaInfo.tuttorwhite,
+    },
+    {
+      ImagePath: socialMediaInfo.pWhite,
+    },
+    {
+      ImagePath: socialMediaInfo.instagramWhite,
+    },
+    {
+      ImagePath: socialMediaInfo.bWhite,
+    },
+  ];
+
   return (
-    <section className="w-full bg-[#f9fafb] text-[#111827] relative">
-      <div className="w-full px-40">
+    <section className="w-full bg-[#f9fafb] text-[#111827] relative flex justify-center">
+      <div className="w-[90%] lg:w-[80%]">
         <div className="w-full text-center pt-40">
           <h1 className="text-[#111827] font-extrabold text-3xl leading-10 ">
             We’re available on more than 20+
@@ -17,69 +59,18 @@ const SocialMediaInfo = () => {
             We’ve all the required Catagories that you can Explore from
           </p>
         </div>
-        <div className="pt-20 flex flex-wrap justify-center  gap-[30px]">
-          <Image
-            src={socialMediaInfo.bWhite}
-            alt="bWhite"
-            className=" w-[91px] h-[91px] cursor-pointer hover:scale-110 transition-all"
-          />
-          <Image
-            src={socialMediaInfo.socail2}
-            alt="social2"
-            className=" w-[91px] h-[91px] cursor-pointer hover:scale-110 transition-all"
-          />
-          <Image
-            src={socialMediaInfo.googleWhite}
-            alt="googleWhite"
-            className=" w-[91px] h-[91px] cursor-pointer hover:scale-110 transition-all"
-          />
-          <Image
-            src={socialMediaInfo.facebookwhite}
-            alt="facebookwhite"
-            className=" w-[91px] h-[91px] cursor-pointer hover:scale-110 transition-all"
-          />
-          <Image
-            src={socialMediaInfo.tuttorwhite}
-            alt="googleWhite"
-            className=" w-[91px] h-[91px] cursor-pointer hover:scale-110 transition-all"
-          />
-          <Image
-            src={socialMediaInfo.lindinWhite}
-            alt="tuttorwhite"
-            className=" w-[91px] h-[91px] cursor-pointer hover:scale-110 transition-all"
-          />
-          <Image
-            src={socialMediaInfo.instagramWhite}
-            alt="instagramWhite"
-            className=" w-[91px] h-[91px] cursor-pointer hover:scale-110 transition-all"
-          />
-        </div>
-        <div className="pt-5 flex flex-wrap justify-center  gap-[30px] pb-40 ">
-          <Image
-            src={socialMediaInfo.social1}
-            alt="social1"
-            className=" w-[91px] h-[91px] cursor-pointer hover:scale-110 transition-all"
-          />
-          <Image
-            src={socialMediaInfo.tuttorwhite}
-            alt="tuttorwhite"
-            className=" w-[91px] h-[91px] cursor-pointer hover:scale-110 transition-all"
-          />
-          <Image
-            src={socialMediaInfo.pWhite}
-            alt="pWhite"
-            className=" w-[91px] h-[91px] cursor-pointer hover:scale-110 transition-all"
-          />
-          <Image
-            src={socialMediaInfo.instagramWhite}
-            alt="instagramWhite"
-            className=" w-[91px] h-[91px] cursor-pointer hover:scale-110 transition-all"
-          />
-          <Image
-            src={socialMediaInfo.bWhite}
-            alt="bWhite"
-            className=" w-[91px] h-[91px] cursor-pointer hover:scale-110 transition-all"
-          />
+        <div className="pt-20 flex flex-wrap justify-center  gap-[30px] pb-36">
+          {socialMediaList.map((image, index) => {
+            return (
+              <Image
+                key={index}
+                src={image.ImagePath}
+                alt="socail images"
+                quality={100}
+                className=" w-[91px] h-[91px] cursor-pointer hover:scale-110 transition-all "
+              />
+            );
+          })}
         </div>
       </div>
       <Image

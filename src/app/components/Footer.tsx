@@ -5,7 +5,7 @@ import { footer } from "./assets";
 const Footer = () => {
   return (
     <footer className="w-full bg-[#1F2937] text-[#FFFFFF] relative flex justify-center">
-      <div className="w-[90%] lg:w-[80%] ">
+      <div className="w-[90%] lg:w-[80%]">
         <div className="w-full flex justify-center">
           <h1 className="font-extrabold   text-[25px] md:text-[36px]  leading-7 md:leading-10 md:pt-32 pt-24">
             Contact Us
