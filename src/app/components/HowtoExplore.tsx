@@ -4,26 +4,52 @@ import Image from "next/image";
 
 const HowtoExplore = () => {
   return (
-    <section className="w-full bg-[#f9fafb] text-[#374151] relative flex  pt-40">
-      <div className="w-[50%] h-[1200px] relative">
+    <section className="w-full flex-wrap bg-[#f9fafb] text-liteBlack relative flex  pt-40">
+      <div
+        className="
+      w-[50%] 
+       xs:h-auto xs:w-[100%]
+       sm:h-auto sm:w-[100%]
+       md:h-auto md:w-[100%]
+       lg:h-[850px] lg:w-[50%]
+       xl:h-[850px] xl:w-[50%]
+      2xl:h-[850px] 2xl:w-[50%]
+      h-[1200px]
+    
+      relative"
+      >
         <Image
           src={ourExplore.aimHigh}
           alt="aimHigh"
           width={500}
           height={500}
-          className="w-full "
+          quality={100}
+          className="w-[100%] h-[100%]"
         />
         <Image
           src={ourExplore.vector8}
           alt="vector8"
+          quality={100}
           className="absolute top-[71px] left-[60px] w-[112px] h-[60px]"
         />
       </div>
 
-      <div className="w-[50%] relative pl-[141px] pr-[162px] ">
+      <div
+        className="
+
+         xs:w-[100%]
+         sm:w-[100%]
+         md:w-[100%]
+         lg:w-[50%]
+         xl:w-[50%]
+         2xl:w-[50%]
+      
+      relative pl-[141px] pr-[162px] "
+      >
         <Image
           src={ourExplore.vector7}
           alt="vector8"
+          quality={100}
           className="absolute left-[147px] top-[129px]"
         />
         <div className="w-full pt-[175px]">
@@ -74,6 +100,7 @@ const HowtoExplore = () => {
             <Image
               src={ourExplore.admin}
               alt="admin"
+              quality={100}
               className="w-[44px] h-[44px]"
             />
             <div className="w-full">
@@ -90,6 +117,7 @@ const HowtoExplore = () => {
             <Image
               src={ourExplore.watch}
               alt="watch"
+              quality={100}
               className="w-[44px] h-[44px]"
             />
             <div className="w-full">
@@ -106,6 +134,7 @@ const HowtoExplore = () => {
       <Image
         src={ourExplore.vector6}
         alt="vector8"
+        quality={100}
         className="absolute right-[81px] top-[115px] w-[106px] h-[104px] "
       />
     </section>
