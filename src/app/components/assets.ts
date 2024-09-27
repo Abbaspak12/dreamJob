@@ -1,5 +1,5 @@
 // ================ HEADER ============
-import logoImage from "@/assets/image/header/logo.png";
+import logoImage from "@/assets/image/header/logo.svg";
 
 //================footer ==============
 import email from "@/assets/image/footer/email.svg";

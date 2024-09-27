@@ -11,7 +11,7 @@ const HeaderBar = () => {
      text-whiteColor flex justify-center`}
     >
       <div className="w-[90%] lg:w-[80%] py-6 flex justify-between items-center">
-        <Image src={header.logo} alt="logo" quality={100} />
+        <Image src={header.logo} alt="logo" quality={100} className="h-fit" />
         <div className="lg:flex justify-end gap-10 hidden lg:shadow">
           <h1 className="font-semibold text-[18px]  cursor-pointer">Product</h1>
           <BiDotsHorizontalRounded className=" " size={30} />
