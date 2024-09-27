@@ -4,19 +4,16 @@ import Image from "next/image";
 
 const HowtoExplore = () => {
   return (
-    <section className="w-full flex-wrap bg-[#f9fafb] text-liteBlack relative flex  pt-40">
+    <section className="w-full flex-wrap bg-[#f9fafb] text-liteBlack relative flex  pt-0 lg:pt-20">
       <div
         className="
-      w-[50%] 
        xs:h-auto xs:w-[100%]
        sm:h-auto sm:w-[100%]
        md:h-auto md:w-[100%]
        lg:h-[850px] lg:w-[50%]
        xl:h-[850px] xl:w-[50%]
-      2xl:h-[850px] 2xl:w-[50%]
-      h-[1200px]
-    
-      relative"
+      2xl:h-auto 2xl:w-[50%]
+      h-[1200px] relative"
       >
         <Image
           src={ourExplore.aimHigh}
@@ -24,13 +21,16 @@ const HowtoExplore = () => {
           width={500}
           height={500}
           quality={100}
-          className="w-[100%] h-[100%]"
+          className=" w-[100%] h-[100%] "
         />
         <Image
           src={ourExplore.vector8}
           alt="vector8"
           quality={100}
-          className="absolute top-[71px] left-[60px] w-[112px] h-[60px]"
+          className="absolute 
+          top-[71px] left-[60px] w-[112px] h-[60px]
+          
+          "
         />
       </div>
 
@@ -44,15 +44,23 @@ const HowtoExplore = () => {
          xl:w-[50%]
          2xl:w-[50%]
       
-      relative pl-[141px] pr-[162px] "
+      relative 
+      
+      lg:pl-[141px] lg:pr-[162px] 
+     
+      pl-[40px] pr-[40px] 
+      
+      "
       >
         <Image
           src={ourExplore.vector7}
           alt="vector8"
           quality={100}
-          className="absolute left-[147px] top-[129px]"
+          className="absolute left-[147px] lg:top-[129px] top-11
+          
+          "
         />
-        <div className="w-full pt-[175px]">
+        <div className="w-full lg:pt-[175px] pt-20">
           <h1 className="text-[#111827] font-extrabold text-[36px] leading-10">
             How to Explore the Best Opportunites for Yourself?
           </h1>
@@ -62,11 +70,12 @@ const HowtoExplore = () => {
           </p>
         </div>
 
-        <div className="w-full flex items-center gap-[54px] pt-[40px]">
-          <div className="flex gap-3">
+        <div className="w-full flex items-center gap-[54px] pt-[40px] flex-wrap">
+          <div className="flex gap-3 flex-wrap">
             <Image
               src={ourExplore.location1}
               alt="location1"
+              quality={100}
               className="w-[44px] h-[44px]"
             />
             <div className="w-full">
@@ -78,7 +87,7 @@ const HowtoExplore = () => {
               </p>
             </div>
           </div>
-          <div className="flex gap-3">
+          <div className="flex gap-3 flex-wrap">
             <Image
               src={ourExplore.pocket}
               alt="pocket"
@@ -95,8 +104,8 @@ const HowtoExplore = () => {
           </div>
         </div>
 
-        <div className="w-full flex items-center gap-[54px] pt-[40px]">
-          <div className="flex gap-3">
+        <div className="w-full flex items-center gap-[54px] pt-[40px] flex-wrap">
+          <div className="flex gap-3 ">
             <Image
               src={ourExplore.admin}
               alt="admin"

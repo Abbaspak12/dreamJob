@@ -38,11 +38,7 @@ const HeroSection = () => {
            md:text-[32px] md:leading-[32px]
           lg:text-[45px] lg:leading-[45px] 
           xl:text-[55px] xl:leading-[55px] 
-           2xl:text-[60px]  2xl:leading-[60px] 
-         
-         
-            
-            "
+           2xl:text-[60px]  2xl:leading-[60px] "
           >
             Your Dream Job is waiting for you!
             <Image
