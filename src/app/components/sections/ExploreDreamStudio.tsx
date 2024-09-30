@@ -30,14 +30,14 @@ const ExploreDreamStudio = () => {
     },
   ];
   return (
-    <section className="w-full bg-[#f9fafb] flex justify-center relative">
+    <section className="w-full bg-whiteColor flex justify-center relative">
       <div className="w-[90%] lg:w-[80%]">
         <div className="w-full text-center pt-40">
           <h1 className="text-[#10B981] font-extrabold text-[36px] leading-9 ">
             Explore Dream Studio
           </h1>
         </div>
-        <div className="flex w-full gap-3 xl:gap-[20px] p-3 pt-20   flex-wrap justify-center">
+        <div className="flex w-full gap-3 xl:gap-[20px] p-3 pt-20   flex-wrap justify-center pb-0 lg:pb-20">
           {exploreList.map((item, index) => {
             return (
               <div

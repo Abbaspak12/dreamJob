@@ -9,7 +9,7 @@ const HeroSection = () => {
   return (
     <section
       className=" flex flex-wrap
-     bg-[#f9fafb] lg:text-whiteColor text-liteBlack w-full 
+     bg-whiteColor lg:text-whiteColor text-liteBlack w-full 
        relative box-border"
     >
       <div

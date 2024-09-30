@@ -46,7 +46,7 @@ const SocialMediaInfo = () => {
   ];
 
   return (
-    <section className="w-full bg-[#f9fafb] text-[#111827] relative flex justify-center">
+    <section className="w-full bg-whiteColor text-[#111827] relative flex justify-center">
       <div className="w-[90%] lg:w-[80%]">
         <div className="w-full text-center pt-16">
           <h1 className="text-[#111827] font-extrabold text-3xl leading-10 ">

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const HowtoExplore = () => {
   return (
-    <section className="w-full flex-wrap bg-[#f9fafb] text-liteBlack relative flex  pt-0 lg:pt-20 ">
+    <section className="w-full flex-wrap  text-liteBlack relative flex bg-whiteColor">
       <div
         className="
         w-[100%] h-auto
@@ -14,7 +14,7 @@ const HowtoExplore = () => {
        lg:h-[850px] lg:w-[50%]
        xl:h-[850px] xl:w-[50%]
        2xl:h-[850px] 2xl:w-[50%]
-       hidden lg:block
+       hidden lg:block 
     "
       >
         <Image

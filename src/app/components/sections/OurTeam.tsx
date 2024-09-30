@@ -48,7 +48,7 @@ const OurTeam = () => {
   ];
 
   return (
-    <section className="w-full bg-[#f9fafb] text-[#111827] relative flex justify-center">
+    <section className="w-full bg-whiteColor text-[#111827] relative flex justify-center">
       <div className="w-[90%] lg:w-[80%] ">
         <div className="w-full text-center pt-40">
           <h1 className="text-[#111827] font-extrabold text-[36px] leading-10 ">
