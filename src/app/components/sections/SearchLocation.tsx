@@ -78,7 +78,7 @@ const SearchLocation = () => {
       md:w-[25%]
       lg:w-[13%]
 border-r border-[#D1D5DB] flex justify-center
-   items-center"
+   items-center pt-5 md:pt-0"
       >
         <CustomSelect
           defaultValue="Skills"
@@ -92,11 +92,11 @@ border-r border-[#D1D5DB] flex justify-center
     sm:w-[30%]
     md:w-[30%]
     lg:w-[25%]
-     text-center my-auto mx-auto lg:pb-0 pb-5"
+     text-center my-auto mx-auto lg:pb-0 sm:pb-4 pb-2 pt-5 md:pt-0"
       >
         <button
-          className="bg-[#10B981]  px-6 lg:px-12 py-[14px]
-text-[#FFFFFF] rounded-lg font-medium text-[18px] hover:scale-105 transition-all"
+          className="bg-[#10B981]  px-6 lg:px-12 py-[3px] lg:py-3 
+text-[#FFFFFF] rounded-lg font-medium text-base sm:text-[18px] hover:scale-105 transition-all"
         >
           Search
         </button>
