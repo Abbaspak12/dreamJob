@@ -58,7 +58,7 @@ const ExploreDreamStudio = () => {
                 </h1>
                 <Image
                   src={item.picturePath}
-                  alt={item.picturePath}
+                  alt="social images"
                   className="mx-auto pt-[34px]"
                   quality={100}
                 />
