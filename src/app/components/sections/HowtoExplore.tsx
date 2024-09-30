@@ -13,10 +13,9 @@ const HowtoExplore = () => {
        md:h-auto md:w-[100%]
        lg:h-[850px] lg:w-[50%]
        xl:h-[850px] xl:w-[50%]
-      2xl:h-[850px] 2xl:w-[50%]
-    hidden lg:block
-      
-      "
+       2xl:h-[850px] 2xl:w-[50%]
+       hidden lg:block
+    "
       >
         <Image
           src={ourExplore.aimHigh}
@@ -39,22 +38,15 @@ const HowtoExplore = () => {
 
       <div
         className="
-   lg:bg-none
-     bg-[url('/aimHighBanner.png')]
-    bg-cover bg-no-repeat bg-center
+   relative 
+   bg-[url('/aimHighBanner.png')] bg-cover bg-no-repeat bg-center
          xs:w-[100%]
          sm:w-[100%]
          md:w-[100%]
-         lg:w-[50%]
+         lg:w-[50%] lg:bg-none  lg:pl-[141px] lg:pr-[162px] 
          xl:w-[50%]
          2xl:w-[50%]
-      
-      relative 
-      
-      lg:pl-[141px] lg:pr-[162px] 
-     
       pl-[40px] pr-[40px] 
-      
       "
       >
         <Image
