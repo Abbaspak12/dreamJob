@@ -37,7 +37,7 @@ const ExploreDreamStudio = () => {
             Explore Dream Studio
           </h1>
         </div>
-        <div className="flex w-full gap-3 xl:gap-[20px] p-3 pt-20   flex-wrap justify-center pb-0 lg:pb-20">
+        <div className="flex w-full gap-3 xl:gap-[20px] p-3 pt-20   flex-wrap justify-center pb-20 lg:pb-40">
           {exploreList.map((item, index) => {
             return (
               <div

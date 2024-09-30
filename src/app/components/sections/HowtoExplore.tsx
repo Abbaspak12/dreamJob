@@ -11,7 +11,7 @@ const HowtoExplore = () => {
        xs:h-auto xs:w-[100%]
        sm:h-auto sm:w-[100%]
        md:h-auto md:w-[100%]
-       lg:h-[850px] lg:w-[50%]
+       lg:h-[850px] lg:w-[50%] 
        xl:h-[850px] xl:w-[50%]
        2xl:h-[850px] 2xl:w-[50%]
        hidden lg:block 
@@ -40,13 +40,127 @@ const HowtoExplore = () => {
    bg-[url('/aimHighBanner.png')] bg-cover bg-no-repeat bg-center
          xs:w-[100%]
          sm:w-[100%]
-         md:w-[100%]
-         lg:w-[50%] lg:bg-none  lg:pl-[141px] lg:pr-[162px] 
+         md:w-[100%] pb-40
+         lg:w-[50%] lg:bg-none lg:pb-0
          xl:w-[50%]
          2xl:w-[50%]
-      pl-[40px] pr-[40px] 
-      "
+        flex justify-center "
       >
+        <div className=" lg:pt-[175px] pt-20 w-[90%] lg:w-[80%] lg:text-liteBlack text-black ">
+          <div className="w-full">
+            <h1
+              className="
+            
+            lg:font-extrabold  lg:text-[36px]  lg:leading-10
+            md:font-bold  md:text-[30px]  md:leading-8
+               
+           font-semibold  text-[28px] leading-7
+            
+            "
+            >
+              How to Explore the Best Opportunities for Yourself?
+            </h1>
+            <p
+              className="   text-[16px] leading-[24px]
+           sm:text-[16px] sm:leading-[24px]
+           md:text-[16px] md:leading-[24px]
+          lg:text-[18px] lg:leading-[28px] 
+          xl:text-[20px] xl:leading-[30px] 
+          2xl:text-[20px] 2xl:leading-[32px]  pt-10 "
+            >
+              Finding a Job that matches your skills & interest is a lot easier
+              now, You can browse the Jobs & apply whenever & wherever you want.
+            </p>
+          </div>
+
+          <div className="w-full  lg:pt-0 pt-5 flex">
+            <div className="w-[50%]">
+              <div className="flex gap-3 w-full ">
+                <Image
+                  src={ourExplore.location1}
+                  alt="location1"
+                  quality={100}
+                  className="w-[44px] h-[44px]"
+                />
+                <div className="w-full">
+                  <h1
+                    className="text-liteBlack lg:font-extrabold  lg:text-[36px]  lg:leading-10
+            font-bold  md:text-[30px]  md:leading-8 text-[20px]"
+                  >
+                    5000+
+                  </h1>
+                  <p className=" font-normal md:leading-[28px] md:text-[18px] text-[16px] leading-6">
+                    Total Jobs
+                  </p>
+                </div>
+              </div>
+              <div className="flex gap-3 w-full pt-10 md:pt-0">
+                <Image
+                  src={ourExplore.pocket}
+                  alt="pocket"
+                  quality={100}
+                  className="w-[44px] h-[44px]"
+                />
+                <div className="w-full">
+                  <h1
+                    className="lg:font-extrabold  lg:text-[36px]  lg:leading-10
+            font-bold  md:text-[30px]  md:leading-8 text-[20px]"
+                  >
+                    80+
+                  </h1>
+                  <p className="font-normal md:leading-[28px] md:text-[18px] text-[16px] leading-6">
+                    Total Employees
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="w-[50%]">
+              <div className="flex gap-3 ">
+                <Image
+                  src={ourExplore.admin}
+                  alt="admin"
+                  quality={100}
+                  className="w-[44px] h-[44px]"
+                />
+                <div className="w-full">
+                  <h1
+                    className="text-liteBlack lg:font-extrabold  lg:text-[36px]  lg:leading-10
+            font-bold  md:text-[30px]  md:leading-8 text-[20px]"
+                  >
+                    2000+
+                  </h1>
+                  <p className="text-liteBlack font-normal md:leading-[28px] md:text-[18px] text-[16px] leading-6">
+                    Total Seekers
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-3 pt-10 md:pt-0">
+                <Image
+                  src={ourExplore.watch}
+                  alt="watch"
+                  quality={100}
+                  className="w-[44px] h-[44px]"
+                />
+                <div className="w-full">
+                  <h1
+                    className="text-liteBlack lg:font-extrabold  lg:text-[36px]  lg:leading-10
+            font-bold  md:text-[30px]  md:leading-8 text-[20px]
+            
+            
+            "
+                  >
+                    5 years
+                  </h1>
+                  <p className="text-liteBlack font-normal md:leading-[28px] md:text-[18px] text-[16px] leading-6">
+                    Total Experience
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <Image
           src={ourExplore.singleLayer}
           alt="vector8"
@@ -55,91 +169,12 @@ const HowtoExplore = () => {
           
           "
         />
-        <div className="w-full lg:pt-[175px] pt-20">
-          <h1 className="text-[#111827] font-extrabold text-[36px] leading-10">
-            How to Explore the Best Opportunities for Yourself?
-          </h1>
-          <p className="text-[#374151] font-normal leading-[28px] text-[18px] pt-10 ">
-            Finding a Job that matches your skills & interest is a lot easier
-            now, You can browse the Jobs & apply whenever & wherever you want.
-          </p>
-        </div>
-
-        <div className="w-full flex items-center gap-[54px] pt-[40px] flex-wrap">
-          <div className="flex gap-3 ">
-            <Image
-              src={ourExplore.location1}
-              alt="location1"
-              quality={100}
-              className="w-[44px] h-[44px]"
-            />
-            <div className="w-full">
-              <h1 className="text-[#374151] font-extrabold text-[36px] leading-10">
-                5000+
-              </h1>
-              <p className="text-[#374151] font-normal leading-[28px] text-[18px]">
-                Total Jobs
-              </p>
-            </div>
-          </div>
-          <div className="flex gap-3 ">
-            <Image
-              src={ourExplore.pocket}
-              alt="pocket"
-              className="w-[44px] h-[44px]"
-            />
-            <div className="w-full">
-              <h1 className="text-[#374151] font-extrabold text-[36px] leading-10">
-                80+
-              </h1>
-              <p className="text-[#374151] font-normal leading-[28px] text-[18px]">
-                Total Employees
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="w-full flex items-center gap-[54px] pt-[40px] flex-wrap">
-          <div className="flex gap-3 ">
-            <Image
-              src={ourExplore.admin}
-              alt="admin"
-              quality={100}
-              className="w-[44px] h-[44px]"
-            />
-            <div className="w-full">
-              <h1 className="text-[#374151] font-extrabold text-[36px] leading-10">
-                2000+
-              </h1>
-              <p className="text-[#374151] font-normal leading-[28px] text-[18px]">
-                Total Seekers
-              </p>
-            </div>
-          </div>
-
-          <div className="flex gap-3">
-            <Image
-              src={ourExplore.watch}
-              alt="watch"
-              quality={100}
-              className="w-[44px] h-[44px]"
-            />
-            <div className="w-full">
-              <h1 className="text-[#374151] font-extrabold text-[36px] leading-10">
-                5 years
-              </h1>
-              <p className="text-[#374151] font-normal leading-[28px] text-[18px]">
-                Total Experience
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
       <Image
         src={ourExplore.circlesRectImage}
         alt="vector8"
         quality={100}
-        className="absolute right-[81px] top-[115px] w-[106px] h-[104px] "
+        className="absolute lg:right-[81px]  lg:top-[-81px] top-5 right-[40px] "
       />
     </section>
   );
