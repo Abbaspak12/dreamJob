@@ -8,8 +8,8 @@ const HeroSection = () => {
   return (
     <div
       className=" flex flex-wrap
-     bg-[#f9fafb] w-full 
-     text-liteBlack  relative box-border"
+     bg-[#f9fafb] lg:text-whiteColor text-liteBlack w-full 
+       relative box-border"
     >
       <div
         className="w-[100%]  h-[500px]
@@ -27,8 +27,8 @@ const HeroSection = () => {
       >
         <div
           className="
-       w-[60%]
-       xs:w-[90%]
+        w-[95%]
+        xs:w-[90%]
         sm:w-[90%]
         md:w-[80%]
        lg:w-[60%]
@@ -37,7 +37,7 @@ const HeroSection = () => {
         2xl:pt-[140px]"
         >
           <h1
-            className="text-whiteColor font-black 
+            className=" font-black 
           text-[24px] leading-[24px] 
            sm:text-[25px] sm:leading-[25px]
            md:text-[32px] md:leading-[32px]
@@ -54,7 +54,7 @@ const HeroSection = () => {
             />
           </h1>
           <p
-            className="text-[#FFFFFF] 
+            className=" 
           font-normal
            text-[16px] leading-[24px]
            sm:text-[16px] sm:leading-[24px]
@@ -67,7 +67,7 @@ const HeroSection = () => {
             Finding a Job that matches your skills & interest is a lot easier
             now, You can browse the Jobs & apply whenever & wherever you want.
           </p>
-          <div className="w-full flex pt-[34px] gap-[32px] sm:ml-0 ml-[-50px]">
+          <div className="w-full flex pt-[34px] gap-[32px] justify-center md:justify-start">
             <CustomSwitch labelTittle="Remote" />
             <CustomSwitch labelTittle="Onsite" />
           </div>
@@ -77,10 +77,10 @@ const HeroSection = () => {
           alt="vector4"
           className="
            absolute 
-           top-[10px] right-[55px]
-           xs:top-[10px] xs:right-[55px]
-           sm:top-[10px] sm:right-[55px]
-           md:top-[10px] md:right-[55px]
+           top-[10px] right-[20px]
+           xs:top-[10px] xs:right-[20px]
+           sm:top-[10px] sm:right-[20px]
+           md:top-[10px] md:right-[20px]
            lg:top-[70px] lg:right-[-55px]
            xl:top-[70px] xl:right-[-55px]
            2xl:top-[70px] 2xl:right-[-55px]
@@ -92,7 +92,7 @@ const HeroSection = () => {
           src={heroSection.dotAndRectacIcon}
           alt="dotAndRectacIcon"
           className=" absolute  
-          top-[15px] 
+          top-[15px] left-[20px]
           xs:left-[40px] xs:top-[15px]
           sm:left-[20px] sm:top-[20px]
           md:left-[40px] md:top-[20px]
@@ -106,10 +106,9 @@ const HeroSection = () => {
           src={heroSection.layerIcon}
           alt="layerIcon"
           className=" absolute  
-       
-           bottom-[100px] left-[134px] 
-            xs:bottom-[100px] xs:left-[134px] 
-            sm:bottom-[100px] sm:left-[134px] 
+            bottom-[110px] left-[20px]
+            xs:bottom-[100px] xs:left-[20px] 
+            sm:bottom-[160px] sm:left-[20px] 
             md:bottom-[160px] md:left-[40px] 
             lg:bottom-[100px] lg:left-[90px]
             xl:bottom-[100px] xl:left-[110px] 
