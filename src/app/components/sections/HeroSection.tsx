@@ -130,7 +130,7 @@ const HeroSection = () => {
        md:h-auto md:w-[100%] 
        lg:h-[850px] lg:w-[50%] hidden lg:block
        xl:h-[850px] xl:w-[50%]
-      2xl:h-[930px] 2xl:w-[50%]
+      2xl:h-[900px] 2xl:w-[50%]
       bg-liteBlack "
       >
         <Image
