@@ -16,7 +16,8 @@ const SearchLocation = () => {
        lg:w-[150%] lg:left-[161px] lg:h-[112px] lg:bottom-[-58px] 
        xl:w-[150%] xl:left-[161px] 
        2xl:w-[150%] 2xl:left-[161px] 
-      md:shadow-md md:shadow-[#c7c3c3] shadow-none rounded-lg flex flex-wrap md:gap-0  text-liteBlack">
+      md:shadow-md   rounded-lg flex flex-wrap md:gap-0  text-liteBlack"
+    >
       <div
         className="
        w-[100%]
