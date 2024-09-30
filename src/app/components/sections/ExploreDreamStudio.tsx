@@ -28,6 +28,8 @@ const ExploreDreamStudio = () => {
       body: " View More",
       picturePath: exploreDreamStudio.pc,
     },
+ 
+ 
   ];
   return (
     <section className="w-full bg-[#f9fafb] flex justify-center relative">
@@ -37,20 +39,21 @@ const ExploreDreamStudio = () => {
             Explore Dream Studio
           </h1>
         </div>
-        <div className="flex w-full gap-3 xl:gap-[20px] p-3 pt-20 xl:flex-nowrap  flex-wrap">
+        <div className="flex w-full gap-3 xl:gap-[20px] p-3 pt-20   flex-wrap justify-center">
           {exploreList.map((item, index) => {
             return (
               <div
                 className="
-                2xl:w-[19.5%] 
-                xl:w-[23.5%]
+                2xl:w-[15%] 
+                xl:w-[18.2%]
                 lg:w-[32%]
                 md:w-[49%]
-                sm:w-[48.5%]
+                sm:w-[48.2%]
                 xs:w-[100%]
                 w-[100%]
-                hover:shadow-xl hover:scale-105 transition-all rounded-xl"
-                key={index}>
+                hover:shadow-xl hover:scale-105 transition-all rounded-xl "
+                key={index}
+              >
                 <h1 className="text-[#374151] font-bold text-[24px] leading-6  text-center pt-[31px]">
                   {item.tittle}
                 </h1>
@@ -69,16 +72,20 @@ const ExploreDreamStudio = () => {
         </div>
       </div>
       <Image
-        src={exploreDreamStudio.vector11}
+        src={exploreDreamStudio.rectDotSet}
         alt="vector11"
         className="absolute 
         top-[20px] left-[50px]
         md:top-[56px] md:left-[154px]
+        lg:top-[56px] lg:left-[154px]
+        xl:top-[56px] xl:left-[154px]
+        2xl:top-[56px] 2xl:left-[154px]
+      
         "
         quality={100}
       />
       <Image
-        src={exploreDreamStudio.vector10}
+        src={exploreDreamStudio.multipleDotRect}
         alt="vector10"
         className="absolute top-[41px] right-[80px]"
         quality={100}

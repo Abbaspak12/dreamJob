@@ -130,8 +130,7 @@ const HeroSection = () => {
        md:h-auto md:w-[100%] 
        lg:h-[850px] lg:w-[50%] hidden lg:block
        xl:h-[850px] xl:w-[50%]
-      2xl:h-[850px] 2xl:w-[50%]
-      
+      2xl:h-[930px] 2xl:w-[50%]
       bg-liteBlack "
       >
         <Image
@@ -139,7 +138,7 @@ const HeroSection = () => {
           alt="heroImage"
           width={500}
           height={500}
-          className="w-[100%] h-[100%]  "
+          className="w-[100%] h-[100%] "
           quality={100}
         />
       </div>

@@ -46,12 +46,12 @@ import watch from "@/assets/image/howToExplore/watch.png";
 
 //================Explore Dream Studio ==============
 
-import chrome from "@/assets/image/exploreDreamStudio/chrome.png";
-import dataBase from "@/assets/image/exploreDreamStudio/dataBase.png";
-import pc from "@/assets/image/exploreDreamStudio/pc.png";
-import router from "@/assets/image/exploreDreamStudio/router.png";
-import vector10 from "@/assets/image/exploreDreamStudio/vector10.png";
-import vector11 from "@/assets/image/exploreDreamStudio/vector11.png";
+import chrome from "@/assets/image/exploreDreamStudio/chrome.svg";
+import dataBase from "@/assets/image/exploreDreamStudio/dataBase.svg";
+import pc from "@/assets/image/exploreDreamStudio/pc.svg";
+import router from "@/assets/image/exploreDreamStudio/router.svg";
+import multipleDotRect from "@/assets/image/exploreDreamStudio/rectCircleCross.svg";
+import rectDotSet from "@/assets/image/exploreDreamStudio/rectDotSet.svg";
 
 //================footer ==============
 import email from "@/assets/image/footer/email.svg";
@@ -79,8 +79,8 @@ const exploreDreamStudio = {
   dataBase,
   pc,
   router,
-  vector10,
-  vector11,
+  multipleDotRect,
+  rectDotSet,
 };
 
 const ourExplore = {

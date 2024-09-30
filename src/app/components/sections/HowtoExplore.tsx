@@ -67,7 +67,7 @@ const HowtoExplore = () => {
         />
         <div className="w-full lg:pt-[175px] pt-20">
           <h1 className="text-[#111827] font-extrabold text-[36px] leading-10">
-            How to Explore the Best Opportunites for Yourself?
+            How to Explore the Best Opportunities for Yourself?
           </h1>
           <p className="text-[#374151] font-normal leading-[28px] text-[18px] pt-10 ">
             Finding a Job that matches your skills & interest is a lot easier
