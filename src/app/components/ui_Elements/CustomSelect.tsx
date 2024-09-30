@@ -12,7 +12,7 @@ const CustomSelect = ({ optionList, defaultValue }: pageProps) => {
       <Select.Content>
         {optionList.map((item: any, index: number) => {
           return (
-            <Select.Item value={item} key={index}>
+            <Select.Item value={item} key={index} className="text-[18px] font-normal">
               {item}
             </Select.Item>
           );

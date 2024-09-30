@@ -49,7 +49,7 @@ const ExploreDreamStudio = () => {
                 sm:w-[48.2%]
                 xs:w-[100%]
                 w-[100%]
-                hover:shadow-md shadow-[#c4bebe]  hover:scale-105 transition-all rounded-xl "
+                hover:shadow-md hover:shadow-[#d4d2d2]  hover:scale-105 transition-all rounded-xl "
                 key={index}
               >
                 <h1 className="text-[#374151] font-bold text-[24px] leading-6  text-center pt-[31px]">

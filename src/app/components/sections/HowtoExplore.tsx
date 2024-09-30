@@ -50,7 +50,6 @@ const HowtoExplore = () => {
           <div className="w-full">
             <h1
               className="
-            
             lg:font-extrabold  lg:text-[36px]  lg:leading-10
             md:font-bold  md:text-[30px]  md:leading-8
                
@@ -165,7 +164,7 @@ const HowtoExplore = () => {
           src={ourExplore.singleLayer}
           alt="vector8"
           quality={100}
-          className="absolute left-[147px] lg:top-[129px] top-11
+          className="absolute left-[10%] lg:top-[129px] top-11
           
           "
         />
