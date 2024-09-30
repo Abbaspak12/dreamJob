@@ -7,13 +7,13 @@ const HowtoExplore = () => {
     <section className="w-full flex-wrap bg-[#f9fafb] text-liteBlack relative flex  pt-0 lg:pt-20">
       <div
         className="
+        w-[100%] h-auto
        xs:h-auto xs:w-[100%]
        sm:h-auto sm:w-[100%]
        md:h-auto md:w-[100%]
        lg:h-[850px] lg:w-[50%]
        xl:h-[850px] xl:w-[50%]
-      2xl:h-auto 2xl:w-[50%]
-      h-[1200px] relative"
+      2xl:h-[850px] 2xl:w-[50%]"
       >
         <Image
           src={ourExplore.aimHigh}

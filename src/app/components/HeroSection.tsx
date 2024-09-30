@@ -282,7 +282,7 @@ const HeroSection = () => {
           alt="aimHigh"
           width={500}
           height={500}
-          className="w-[100%] h-[100%] object-fill "
+          className="w-[100%] h-[100%]  "
           quality={100}
         />
       </div>
