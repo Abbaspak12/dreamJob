@@ -16,7 +16,7 @@ const SearchLocation = () => {
        lg:w-[150%] lg:left-[161px] lg:h-[112px] lg:bottom-[-58px] 
        xl:w-[150%] xl:left-[161px] 
        2xl:w-[150%] 2xl:left-[161px] 
-       shadow-lg rounded-lg flex flex-wrap md:gap-0 "
+       shadow-lg rounded-lg flex flex-wrap md:gap-0 hover:scale-105 transition-all delay-200 text-liteBlack"
     >
       <div
         className="
@@ -53,7 +53,8 @@ const SearchLocation = () => {
           id="locationName"
           placeholder="Enter Your Location Here!"
           className="hover:border-none border-none
-         px-2  focus:outline-none focus:border-none w-auto text-xs sm:text-[14px] font-normal"
+         px-2  focus:outline-none focus:border-none
+          w-auto text-xs sm:text-[14px] font-normal"
         />
       </div>
       <div

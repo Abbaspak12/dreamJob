@@ -39,9 +39,9 @@ import admin from "@/assets/image/howToExplore/admin.svg";
 import aimHigh from "@/assets/image/howToExplore/aimHigh.png";
 import location1 from "@/assets/image/howToExplore/location1.svg";
 import pocket from "@/assets/image/howToExplore/pocket.svg";
-import vector7 from "@/assets/image/howToExplore/singleLayer.svg";
-import vector6 from "@/assets/image/howToExplore/circlesRectImage.svg";
-import vector8 from "@/assets/image/howToExplore/multipleLayer.svg";
+import singleLayer from "@/assets/image/howToExplore/singleLayer.svg";
+import circlesRectImage from "@/assets/image/howToExplore/circlesRectImage.svg";
+import multipleLayer from "@/assets/image/howToExplore/multipleLayer.svg";
 import watch from "@/assets/image/howToExplore/watch.svg";
 
 //================Explore Dream Studio ==============
@@ -88,10 +88,10 @@ const ourExplore = {
   aimHigh,
   location1,
   pocket,
-  vector7,
-  vector6,
+  singleLayer,
+  circlesRectImage,
   watch,
-  vector8,
+  multipleLayer,
 };
 const ourTeam = {
   girl1,

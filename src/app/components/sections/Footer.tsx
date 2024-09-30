@@ -11,7 +11,7 @@ const Footer = () => {
             Contact Us
           </h1>
         </div>
-        <p className="text-[18px] font-normal leading-7 pt-14">
+        <p className="text-[18px] font-normal leading-7 pt-14 w-full text-center">
           Finding a job that matches your skills & interest is a lot easier now,
           You can browse the jobs & apply whenever & wherever you want. Finding
           a Job that matches your skills & interest is a lot easier now, You can

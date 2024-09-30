@@ -26,7 +26,7 @@ const HowtoExplore = () => {
           className=" w-[100%] h-[100%] "
         />
         <Image
-          src={ourExplore.vector8}
+          src={ourExplore.multipleLayer}
           alt="vector8"
           quality={100}
           className="absolute 
@@ -50,7 +50,7 @@ const HowtoExplore = () => {
       "
       >
         <Image
-          src={ourExplore.vector7}
+          src={ourExplore.singleLayer}
           alt="vector8"
           quality={100}
           className="absolute left-[147px] lg:top-[129px] top-11
@@ -138,7 +138,7 @@ const HowtoExplore = () => {
         </div>
       </div>
       <Image
-        src={ourExplore.vector6}
+        src={ourExplore.circlesRectImage}
         alt="vector8"
         quality={100}
         className="absolute right-[81px] top-[115px] w-[106px] h-[104px] "
