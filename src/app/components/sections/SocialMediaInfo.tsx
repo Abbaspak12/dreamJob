@@ -64,7 +64,7 @@ const SocialMediaInfo = () => {
                 src={image.ImagePath}
                 alt="socail images"
                 quality={100}
-                className="w-[75px] h-[75px] cursor-pointer hover:scale-110 transition-all "
+                className="w-[75px] h-[75px] cursor-pointer hover:scale-110 transition-all  "
               />
             );
           })}

@@ -76,7 +76,7 @@ const OurTeam = () => {
                   xs:w-[100%]
                    px-[33px] 
                    relative 
-                   shadow-lg lg:mb-10 mb-20 
+                   shadow-md shadow-[#c5c4c4] lg:mb-10 mb-20 
                    rounded-xl 
                    cursor-pointer
                     hover:scale-105

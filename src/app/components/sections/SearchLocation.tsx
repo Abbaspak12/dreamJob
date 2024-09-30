@@ -16,7 +16,7 @@ const SearchLocation = () => {
        lg:w-[150%] lg:left-[161px] lg:h-[112px] lg:bottom-[-58px] 
        xl:w-[150%] xl:left-[161px] 
        2xl:w-[150%] 2xl:left-[161px] 
-       shadow-lg rounded-lg flex flex-wrap md:gap-0 hover:scale-105 transition-all delay-200 text-liteBlack"
+      shadow-md shadow-[#bbb9b9] rounded-lg flex flex-wrap md:gap-0  text-liteBlack"
     >
       <div
         className="
