@@ -1,24 +1,29 @@
 import React from "react";
-import { heroSection } from "./assets";
+import { heroSection } from "../assets";
+import { CustomSwitch, CustomSelect } from "../ui_Elements";
+
 import Image from "next/image";
 
 const HeroSection = () => {
   return (
     <div
-      className="  flex flex-wrap
+      className=" flex flex-wrap
      bg-[#f9fafb] w-full 
      text-liteBlack  relative box-border"
     >
       <div
-        className="
-      w-[100%]  h-[500px]
+        className="w-[100%]  h-[500px]
      xs:h-[500px] xs:w-[100%]
      sm:h-[500px] sm:w-[100%]
      md:h-[530px] md:w-[100%]
      lg:h-[720px] lg:w-[50%]
      xl:h-[720px] xl:w-[50%]
      2xl:h-[720px] 2xl:w-[50%]
-       bg-liteBlack relative flex justify-center"
+   bg-liteBlack relative flex justify-center
+     lg:bg-none
+     bg-[url('/heroImageBanner.png')]
+    bg-cover bg-no-repeat bg-center
+       "
       >
         <div
           className="
@@ -42,16 +47,15 @@ const HeroSection = () => {
           >
             Your Dream Job is waiting for you!
             <Image
-              src={heroSection.vector13}
+              src={heroSection.textDotIcon}
               alt="aimHigh"
-              className="inline ml-2 mt-5"
+              className="inline ml-2 mt-5 "
               quality={100}
             />
           </h1>
           <p
             className="text-[#FFFFFF] 
           font-normal
-        
            text-[16px] leading-[24px]
            sm:text-[16px] sm:leading-[24px]
            md:text-[16px] md:leading-[24px]
@@ -64,41 +68,12 @@ const HeroSection = () => {
             now, You can browse the Jobs & apply whenever & wherever you want.
           </p>
           <div className="w-full flex pt-[34px] gap-[32px] sm:ml-0 ml-[-50px]">
-            '
-            <label className="inline-flex items-center cursor-pointer">
-              <span className="text-[#FFFFFF] font-normal text-[18px] pr-4">
-                Remote
-              </span>
-              <input type="checkbox" value="" className="sr-only peer " />
-              <div
-                className="relative w-[50px] h-6 bg-[#FFFFFF] peer-focus:outline-none peer-focus:ring-4
-               rounded-full peer
-              dark:bg-[#FFFFFF] peer-checked:after:translate-x-full
-               rtl:peer-checked:after:-translate-x-full peer-checked:after:border-green-400 after:content-[''] 
-               after:absolute after:top-[2px] after:start-[2px] after:bg-green-400  after:border-gray-300 
-               after:border after:rounded-full after:h-5 after:w-5 after:transition-all 
-               "
-              ></div>
-            </label>
-            <label className="inline-flex items-center cursor-pointer">
-              <span className="text-[#FFFFFF] font-normal text-[18px] pr-4">
-                Onsite
-              </span>
-              <input type="checkbox" value="" className="sr-only peer " />
-              <div
-                className="relative w-[50px] h-6 bg-[#FFFFFF] peer-focus:outline-none peer-focus:ring-4
-               rounded-full peer
-              dark:bg-[#FFFFFF] peer-checked:after:translate-x-full
-               rtl:peer-checked:after:-translate-x-full peer-checked:after:border-green-400 after:content-[''] 
-               after:absolute after:top-[2px] after:start-[2px] after:bg-green-400  after:border-gray-300 
-               after:border after:rounded-full after:h-5 after:w-5 after:transition-all 
-               "
-              ></div>
-            </label>
+            <CustomSwitch labelTittle="Remote" />
+            <CustomSwitch labelTittle="Onsite" />
           </div>
         </div>
         <Image
-          src={heroSection.vector4}
+          src={heroSection.layerIcon}
           alt="vector4"
           className="
            absolute 
@@ -114,32 +89,31 @@ const HeroSection = () => {
           quality={100}
         />
         <Image
-          src={heroSection.vectorGroup13}
-          alt="aimHigh"
+          src={heroSection.dotAndRectacIcon}
+          alt="dotAndRectacIcon"
           className=" absolute  
-          top-[15px] left-[40px] 
+          top-[15px] 
           xs:left-[40px] xs:top-[15px]
           sm:left-[20px] sm:top-[20px]
           md:left-[40px] md:top-[20px]
-          lg:left-[100px]
+          lg:left-[90px]
           xl:left-[110px]
-          2xl:left-[140px] 
-       
-           z-10  w-[112px] h-[50px]"
+          2xl:left-[170px] 
+           z-10  w h-auto"
           quality={100}
         />
         <Image
-          src={heroSection.vector4}
-          alt="aimHigh"
+          src={heroSection.layerIcon}
+          alt="layerIcon"
           className=" absolute  
        
-          bottom-[100px] left-[134px] 
+           bottom-[100px] left-[134px] 
             xs:bottom-[100px] xs:left-[134px] 
             sm:bottom-[100px] sm:left-[134px] 
             md:bottom-[160px] md:left-[40px] 
-            lg:bottom-[100px] lg:left-[134px] 
-            xl:bottom-[100px] xl:left-[134px] 
-            2xl:bottom-[100px] 2xl:left-[134px] 
+            lg:bottom-[100px] lg:left-[90px]
+            xl:bottom-[100px] xl:left-[110px] 
+            2xl:bottom-[100px] 2xl:left-[170px]
           w-[111px] 
           h-[60px]"
           quality={100}
@@ -206,22 +180,13 @@ const HeroSection = () => {
             sm:w-[35%]
             md:w-[25%]
             lg:w-[17%] 
-            
             border-r border-[#D1D5DB] flex justify-center
-         py-[43px]"
+         items-center"
           >
-            <select
-              name="cars"
-              id="cars"
-              className=" 
-            text-[#374151] hover:border-none border-none
-         px-2  focus:outline-none focus:border-none"
-            >
-              <option value="volvo">Category</option>
-              <option value="saab">Catagory 1</option>
-              <option value="opel">Catagory 2</option>
-              <option value="audi">Catagory 3</option>
-            </select>
+            <CustomSelect
+              defaultValue="Category"
+              optionList={["Category", "Category1", "Category2"]}
+            />
           </div>
           <div
             className="
@@ -229,22 +194,13 @@ const HeroSection = () => {
             sm:w-[35%]
             md:w-[25%]
             lg:w-[13%]
-
-              border-r border-[#D1D5DB] flex justify-center
-         py-[43px]"
+ border-r border-[#D1D5DB] flex justify-center
+         items-center"
           >
-            <select
-              name="cars"
-              id="cars"
-              className=" text-[#374151]
-      hover:border-none border-none
-         px-2  focus:outline-none focus:border-none"
-            >
-              <option value="volvo">Skills</option>
-              <option value="saab">Skills 1</option>
-              <option value="opel">Skills 2</option>
-              <option value="audi">Skills 3</option>
-            </select>
+            <CustomSelect
+              defaultValue="Skills"
+              optionList={["Skills", "Skills1", "Skills2"]}
+            />
           </div>
 
           <div
@@ -270,8 +226,8 @@ const HeroSection = () => {
        w-[100%] h-auto
        xs:h-auto xs:w-[100%]
        sm:h-auto sm:w-[100%]
-       md:h-auto md:w-[100%]
-       lg:h-[850px] lg:w-[50%]
+       md:h-auto md:w-[100%] 
+       lg:h-[850px] lg:w-[50%] hidden lg:block
        xl:h-[850px] xl:w-[50%]
       2xl:h-[850px] 2xl:w-[50%]
       
@@ -279,7 +235,7 @@ const HeroSection = () => {
       >
         <Image
           src={heroSection.heroImage}
-          alt="aimHigh"
+          alt="heroImage"
           width={500}
           height={500}
           className="w-[100%] h-[100%]  "

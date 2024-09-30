@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { socialMediaInfo } from "./assets";
+import { socialMediaInfo } from "../assets";
 
 const SocialMediaInfo = () => {
   const socialMediaList = [

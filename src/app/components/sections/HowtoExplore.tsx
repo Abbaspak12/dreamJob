@@ -1,5 +1,5 @@
 import React from "react";
-import { ourExplore } from "./assets";
+import { ourExplore } from "../assets";
 import Image from "next/image";
 
 const HowtoExplore = () => {
@@ -13,7 +13,10 @@ const HowtoExplore = () => {
        md:h-auto md:w-[100%]
        lg:h-[850px] lg:w-[50%]
        xl:h-[850px] xl:w-[50%]
-      2xl:h-[850px] 2xl:w-[50%]"
+      2xl:h-[850px] 2xl:w-[50%]
+    hidden lg:block
+      
+      "
       >
         <Image
           src={ourExplore.aimHigh}
@@ -36,7 +39,9 @@ const HowtoExplore = () => {
 
       <div
         className="
-
+   lg:bg-none
+     bg-[url('/aimHighBanner.png')]
+    bg-cover bg-no-repeat bg-center
          xs:w-[100%]
          sm:w-[100%]
          md:w-[100%]

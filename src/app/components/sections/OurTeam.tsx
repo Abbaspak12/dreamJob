@@ -1,5 +1,5 @@
 import React from "react";
-import { ourTeam } from "./assets";
+import { ourTeam } from "../assets";
 import Image from "next/image";
 const OurTeam = () => {
   const clientsReview = [

@@ -1,5 +1,5 @@
 import React from "react";
-import { exploreDreamStudio } from "./assets";
+import { exploreDreamStudio } from "../assets";
 import Image from "next/image";
 const ExploreDreamStudio = () => {
   const exploreList = [

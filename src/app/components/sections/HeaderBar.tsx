@@ -1,7 +1,7 @@
 import React from "react";
 import { BiDotsHorizontalRounded } from "react-icons/bi";
 import { FiAlignJustify } from "react-icons/fi";
-import { header } from "./assets";
+import { header } from "../assets";
 import Image from "next/image";
 
 const HeaderBar = () => {
@@ -12,12 +12,12 @@ const HeaderBar = () => {
     >
       <div className="w-[90%] lg:w-[80%] py-6 flex justify-between items-center">
         <Image src={header.logo} alt="logo" quality={100} className="h-fit" />
-        <div className="lg:flex justify-end gap-10 hidden lg:shadow">
+        <div className="lg:flex justify-end gap-10 hidden ">
           <h1 className="font-semibold text-[18px]  cursor-pointer ">
             Product
           </h1>
           <BiDotsHorizontalRounded className=" " size={30} />
-          <h1 className="font-semibold text-[18px]  cursor-pointer fon">
+          <h1 className="font-semibold text-[18px]  cursor-pointer">
             Performance
           </h1>
           <BiDotsHorizontalRounded className=" " size={30} />
@@ -25,7 +25,7 @@ const HeaderBar = () => {
             Dashboard
           </h1>
         </div>
-        <div className="lg:flex  gap-9 hidden lg:shadow ">
+        <div className="lg:flex  gap-9 hidden  ">
           <button className="text-liteGreen  font-semibold text-[18px]">
             Login
           </button>

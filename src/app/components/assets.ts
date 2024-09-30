@@ -1,15 +1,14 @@
 // ================ HEADER ============
 import logoImage from "@/assets/image/header/logo.svg";
 
-//================footer ==============
-import email from "@/assets/image/footer/email.svg";
-import facebook from "@/assets/image/footer/facebook.svg";
-import instagram from "@/assets/image/footer/instagram.svg";
-import location from "@/assets/image/footer/location.svg";
-import mobile from "@/assets/image/footer/mobile.svg";
-import twitter from "@/assets/image/footer/twitter.svg";
-import google from "@/assets/image/footer/google.svg";
-import verticalDotGroup from "@/assets/image/footer/verticalDotGroup.svg";
+//================Hero Section Image ==============
+import heroImage from "@/assets/image/heroSection/heroImage.png";
+import location2 from "@/assets/image/heroSection/location2.svg";
+import layerIcon from "@/assets/image/heroSection/layerIcon.svg";
+import textDotIcon from "@/assets/image/heroSection/textDotIcon.svg";
+import dotAndRectacIcon from "@/assets/image/heroSection/dotAndRectacIcon.svg";
+
+
 
 //================Social media Info ==============
 import bWhite from "@/assets/image/socialMediaInfo/bWhite.png";
@@ -54,13 +53,15 @@ import router from "@/assets/image/exploreDreamStudio/router.png";
 import vector10 from "@/assets/image/exploreDreamStudio/vector10.png";
 import vector11 from "@/assets/image/exploreDreamStudio/vector11.png";
 
-//================Hero Section Image ==============
-
-import heroImage from "@/assets/image/heroSection/heroImage.png";
-import location2 from "@/assets/image/heroSection/location2.svg";
-import vector4 from "@/assets/image/heroSection/vector4.svg";
-import vector13 from "@/assets/image/heroSection/vector13.svg";
-import vectorGroup13 from "@/assets/image/heroSection/vectorGroup13.svg";
+//================footer ==============
+import email from "@/assets/image/footer/email.svg";
+import facebook from "@/assets/image/footer/facebook.svg";
+import instagram from "@/assets/image/footer/instagram.svg";
+import location from "@/assets/image/footer/location.svg";
+import mobile from "@/assets/image/footer/mobile.svg";
+import twitter from "@/assets/image/footer/twitter.svg";
+import google from "@/assets/image/footer/google.svg";
+import verticalDotGroup from "@/assets/image/footer/verticalDotGroup.svg";
 
 const header = {
   logo: logoImage,
@@ -69,9 +70,9 @@ const header = {
 const heroSection = {
   heroImage,
   location2,
-  vector4,
-  vector13,
-  vectorGroup13,
+  layerIcon,
+  textDotIcon,
+  dotAndRectacIcon,
 };
 const exploreDreamStudio = {
   chrome,
