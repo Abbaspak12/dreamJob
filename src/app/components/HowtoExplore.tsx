@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const HowtoExplore = () => {
   return (
-    <section className="w-full flex-wrap bg-[#f9fafb] text-liteBlack relative flex  pt-0 lg:pt-20">
+    <section className="w-full flex-wrap bg-[#f9fafb] text-liteBlack relative flex  pt-0 lg:pt-20 ">
       <div
         className="
         w-[100%] h-auto
