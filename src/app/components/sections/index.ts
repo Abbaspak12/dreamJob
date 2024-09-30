@@ -6,6 +6,7 @@ import OurTeam from "./OurTeam";
 import HowtoExplore from "./HowtoExplore";
 import ExploreDreamStudio from "./ExploreDreamStudio";
 import HeroSection from "./HeroSection";
+import SearchLocation from "./SearchLocation";
 
 export {
     HeaderBar,
@@ -14,7 +15,8 @@ export {
     OurTeam,
     HowtoExplore,
     ExploreDreamStudio,
-    HeroSection
+    HeroSection,
+    SearchLocation
 
 
 

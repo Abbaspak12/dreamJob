@@ -1,6 +1,7 @@
 import React from "react";
 import { heroSection } from "../assets";
 import { CustomSwitch, CustomSelect } from "../ui_Elements";
+import SearchLocation from "./SearchLocation";
 
 import Image from "next/image";
 
@@ -12,10 +13,10 @@ const HeroSection = () => {
        relative box-border"
     >
       <div
-        className="w-[100%]  h-[500px]
-     xs:h-[500px] xs:w-[100%]
-     sm:h-[500px] sm:w-[100%]
-     md:h-[530px] md:w-[100%]
+        className="w-[100%]  h-[650px]
+     xs:h-[600px] xs:w-[100%]
+     sm:h-[600px] sm:w-[100%]
+     md:h-[600px] md:w-[100%]
      lg:h-[720px] lg:w-[50%]
      xl:h-[720px] xl:w-[50%]
      2xl:h-[720px] 2xl:w-[50%]
@@ -106,10 +107,10 @@ const HeroSection = () => {
           src={heroSection.layerIcon}
           alt="layerIcon"
           className=" absolute  
-            bottom-[110px] left-[20px]
-            xs:bottom-[100px] xs:left-[20px] 
-            sm:bottom-[160px] sm:left-[20px] 
-            md:bottom-[160px] md:left-[40px] 
+            bottom-[250px] left-[20px]
+            xs:bottom-[240px] xs:left-[20px] 
+            sm:bottom-[240px] sm:left-[20px] 
+            md:bottom-[240px] md:left-[40px] 
             lg:bottom-[100px] lg:left-[90px]
             xl:bottom-[100px] xl:left-[110px] 
             2xl:bottom-[100px] 2xl:left-[170px]
@@ -117,107 +118,8 @@ const HeroSection = () => {
           h-[60px]"
           quality={100}
         />
-        <div
-          className="absolute
-                  bg-whiteColor 
-                z-50 
-              w-[92%] left-[20px] bottom-[-350px]
-             xs:w-[92%] xs:left-[10px] xs:h-auto xs:bottom-[-58px] 
-             sm:w-[80%] sm:left-[65px] sm:h-auto sm:bottom-[-58px] 
-             md:w-[80%] md:left-[100px] md:h-auto md:bottom-[-58px] 
-             lg:w-[150%] lg:left-[161px] lg:h-[112px] lg:bottom-[-58px] 
-             xl:w-[150%] xl:left-[161px] 
-             2xl:w-[150%] 2xl:left-[161px] 
-             shadow-lg rounded-lg flex flex-wrap"
-        >
-          <div
-            className="
-             w-[100%]
-             md:w-[50%]
-            lg:w-[45%] 
-            2xl:w-[45%] 
-             border-r 
-          border-[#D1D5DB] 
-          pl-[10px] 
-          xs:pl-[10px] 
-          lg:pl-[48px] 
-          pt-[37px] 
-          pb-[31px] 
-          flex items-center"
-          >
-            <Image
-              src={heroSection.location2}
-              alt="location2"
-              className=" "
-              quality={100}
-            />
-            <h1
-              className="
-            text-[#374151] 
-            font-normal 
-            text-[18px] 
-            leading-[28px] 
-            pl-1
-            lg:pl-4
-             "
-            >
-              Location
-            </h1>
-            <span className="w-[2.2px] h-[20px] bg-[#34D399] mx-0.5 lg:mx-2" />
 
-            <input
-              id="locationName"
-              placeholder="Enter Your Location Here!"
-              className="hover:border-none border-none
-         px-2  focus:outline-none focus:border-none"
-            />
-          </div>
-          <div
-            className="
-          w-[50%]
-            
-            sm:w-[35%]
-            md:w-[25%]
-            lg:w-[17%] 
-            border-r border-[#D1D5DB] flex justify-center
-         items-center"
-          >
-            <CustomSelect
-              defaultValue="Category"
-              optionList={["Category", "Category1", "Category2"]}
-            />
-          </div>
-          <div
-            className="
-            w-[50%] 
-            sm:w-[35%]
-            md:w-[25%]
-            lg:w-[13%]
- border-r border-[#D1D5DB] flex justify-center
-         items-center"
-          >
-            <CustomSelect
-              defaultValue="Skills"
-              optionList={["Skills", "Skills1", "Skills2"]}
-            />
-          </div>
-
-          <div
-            className="
-          w-[100%]
-          sm:w-[30%]
-          md:w-[30%]
-          lg:w-[25%]
-           text-center my-auto mx-auto lg:pb-0 pb-5"
-          >
-            <button
-              className="bg-[#10B981]  px-6 lg:px-12 py-[14px]
- text-[#FFFFFF] rounded-lg font-medium text-[18px] hover:scale-105 transition-all"
-            >
-              Search
-            </button>
-          </div>
-        </div>
+        <SearchLocation />
       </div>
 
       <div
