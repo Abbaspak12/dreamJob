@@ -23,16 +23,14 @@ const HowtoExplore = () => {
           width={500}
           height={500}
           quality={100}
-          className=" w-[100%] h-[100%] "
+          className=" w-[100%] h-[100%]"
         />
         <Image
           src={ourExplore.multipleLayer}
           alt="vector8"
           quality={100}
           className="absolute 
-          top-[71px] left-[60px] w-[112px] h-[60px]
-          
-          "
+          top-[71px] left-[60px] w-[112px] h-[60px]"
         />
       </div>
 

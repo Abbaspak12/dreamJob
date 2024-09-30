@@ -1,4 +1,4 @@
-const CustomSwitch = ({ labelTittle }) => {
+const CustomSwitch = ({ labelTittle }: { labelTittle: string }) => {
   return (
     <label className="inline-flex items-center cursor-pointer">
       <span className="text-[#FFFFFF] font-normal text-[18px] pr-4">
