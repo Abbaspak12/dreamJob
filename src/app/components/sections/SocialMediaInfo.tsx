@@ -19,15 +19,14 @@ const SocialMediaInfo = () => {
     {
       ImagePath: socialMediaInfo.tuttorwhite,
     },
-    {
-      ImagePath: socialMediaInfo.tuttorwhite,
-    },
+
     {
       ImagePath: socialMediaInfo.lindinWhite,
     },
     {
-      ImagePath: socialMediaInfo.lindinWhite,
+      ImagePath: socialMediaInfo.social1,
     },
+
     {
       ImagePath: socialMediaInfo.instagramWhite,
     },
@@ -37,9 +36,7 @@ const SocialMediaInfo = () => {
     {
       ImagePath: socialMediaInfo.pWhite,
     },
-    {
-      ImagePath: socialMediaInfo.instagramWhite,
-    },
+
     {
       ImagePath: socialMediaInfo.bWhite,
     },
@@ -59,7 +56,7 @@ const SocialMediaInfo = () => {
             We’ve all the required Catagories that you can Explore from
           </p>
         </div>
-        <div className="pt-20 flex flex-wrap justify-center  gap-[30px] pb-36">
+        <div className="pt-20 flex flex-wrap justify-center  gap-[12px] pb-36 lg:px-[300px] px-0 ">
           {socialMediaList.map((image, index) => {
             return (
               <Image
@@ -67,7 +64,7 @@ const SocialMediaInfo = () => {
                 src={image.ImagePath}
                 alt="socail images"
                 quality={100}
-                className=" w-[91px] h-[91px] cursor-pointer hover:scale-110 transition-all "
+                className="w-[75px] h-[75px] cursor-pointer hover:scale-110 transition-all "
               />
             );
           })}
@@ -76,54 +73,51 @@ const SocialMediaInfo = () => {
       <Image
         src={socialMediaInfo.vectorGroup3}
         alt="vectorGroup3"
+        quality={100}
         className="absolute 
-        left-[10px] top-[5px]   w-[70px]  h-[50px]
-        xs:left-[10px] xs:top-[5px]     xs:w-[80px]   xs:h-[50px]
-        sm:left-[20px]  sm:top-[5px]    sm:w-[90px] sm:h-[60px]
-        md:left-[40px]  md:top-[5px]    md:w-[100px] md:h-[70px]
-        lg:left-[40px]  lg:top-[20px]    lg:w-[120px] lg:h-[120px]
-        xl:left-[100px]  xl:top-[60px]   xl:w-[121px] xl:h-[138px]
-        2xl:left-[117px] 2xl:top-[60px] 2xl:w-[121px] 2xl:h-[138px]
-        
-    
-"
+        left-[10px] top-[5px]   
+        xs:left-[10px] xs:top-[5px]     
+        sm:left-[20px]  sm:top-[5px]    
+        md:left-[40px]  md:top-[5px]    
+        lg:left-[40px]  lg:top-[20px]    
+        xl:left-[100px]  xl:top-[60px]   
+        2xl:left-[117px] 2xl:top-[60px] 
+          hidden md:block"
       />
       <Image
         src={socialMediaInfo.vectorGroup2}
         alt="vectorGroup2"
+        quality={100}
         className="absolute 
-    right-[10px] top-[10px] w-[70px] h-[50px]
-    xs:right-[20px] xs:top-[5px] xs:w-[80px] xs:h-[60px]
-    sm:right-[20px] sm:top-[5px] sm:w-[90px] sm:h-[60px]
-    md:right-[40px] md:top-[5px] md:w-[100px] md:h-[70px]
-    lg:right-[40px] lg:top-[20px] lg:w-[120px] lg:h-[120px]
-    xl:right-[117px] xl:top-[60px] xl:w-[121px] xl:h-[138px]
-    2xl:right-[90px] 2xl:top-[50px] 2xl:w-[180px] 2xl:h-[110px]
-
-       
-        
-        
-        "
+    right-[10px] top-[10px] 
+    xs:right-[20px] xs:top-[5px] 
+    sm:right-[20px] sm:top-[5px] 
+    md:right-[40px] md:top-[5px] 
+    lg:right-[40px] lg:top-[20px] 
+    xl:right-[117px] xl:top-[60px] 
+    2xl:right-[90px] 2xl:top-[50px]    hidden md:block"
       />
       <Image
         src={socialMediaInfo.vectorGroup1}
         alt="vectorGroup1"
+        quality={100}
         className="absolute 
-         left-[10px] bottom-[5px]   w-[70px]  h-[50px]
-        xs:left-[10px] xs:bottom-[5px]     xs:w-[80px]   xs:h-[50px]
-        sm:left-[20px]  sm:bottom-[5px]    sm:w-[90px] sm:h-[60px]
-        md:left-[40px]  md:bottom-[5px]    md:w-[100px] md:h-[70px]
-        lg:left-[40px]  lg:bottom-[20px]    lg:w-[120px] lg:h-[120px]
-        xl:left-[100px]  xl:bottom-[60px]   xl:w-[121px] xl:h-[138px]
-        2xl:left-[117px] 2xl:bottom-[60px] 2xl:w-[121px] 2xl:h-[138px]
-        
+         left-[10px] bottom-[5px]   
+        xs:left-[10px] xs:bottom-[5px]     
+        sm:left-[20px]  sm:bottom-[5px]    
+        md:left-[40px]  md:bottom-[5px]    
+        lg:left-[40px]  lg:bottom-[20px]    
+        xl:left-[100px]  xl:bottom-[60px]   
+        2xl:left-[117px] 2xl:bottom-[60px] 
+          hidden md:block
         
         "
       />
       <Image
         src={socialMediaInfo.Vector}
         alt="Vector"
-        className="absolute right-[140px] bottom-[120px] h-[17px] w-[18px]"
+        quality={100}
+        className="absolute right-[140px] bottom-[120px]   hidden md:block"
       />
     </section>
   );

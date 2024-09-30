@@ -50,7 +50,7 @@ const OurTeam = () => {
   return (
     <section className="w-full bg-whiteColor text-[#111827] relative flex justify-center">
       <div className="w-[90%] lg:w-[80%] ">
-        <div className="w-full text-center pt-40">
+        <div className="w-full text-center md:pt-40 pt-20">
           <h1 className="text-[#111827] font-extrabold text-[36px] leading-10 ">
             Our Team
           </h1>
@@ -73,12 +73,10 @@ const OurTeam = () => {
                   xl:w-[30.8%]
                   lg:w-[30.2%]
                   md:w-[48%]
-                  
                   xs:w-[100%]
-              
                    px-[33px] 
                    relative 
-                   shadow-lg mb-10 
+                   shadow-lg lg:mb-10 mb-20 
                    rounded-xl 
                    cursor-pointer
                     hover:scale-105
@@ -146,30 +144,23 @@ const OurTeam = () => {
       <Image
         src={ourTeam.vectorGroup5}
         alt="man1"
+        quality={100}
         className="absolute left-[33px] 
         top-[31px] 
         lg:rotate-0
-         rotate-[90deg] lg:w-auto 
-         lg:h-auto 
-         md:w-[140px]
-         w-[120px] 
-    
-        h-auto "
+         rotate-[90deg] 
+         hidden md:block
+         "
       />
 
       <Image
         src={ourTeam.vectorGroup4}
+        quality={100}
         alt="man1"
         className="absolute 
-        right-[50px]   top-[50px] 
-      
-      
-        lg:right-[116px]    lg:top-[77px] 
-        w-[100px]
-         sm:w-[100px] 
-        
-         md:w-[150px]
-        lg:w-auto
+        right-[50px]   top-[20px] 
+        lg:right-[116px]    lg:top-[40px] 
+            hidden md:block
       
         "
       />
