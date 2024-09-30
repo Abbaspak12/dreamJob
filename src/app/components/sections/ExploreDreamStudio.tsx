@@ -28,8 +28,6 @@ const ExploreDreamStudio = () => {
       body: " View More",
       picturePath: exploreDreamStudio.pc,
     },
- 
- 
   ];
   return (
     <section className="w-full bg-[#f9fafb] flex justify-center relative">
@@ -47,7 +45,7 @@ const ExploreDreamStudio = () => {
                 2xl:w-[15%] 
                 xl:w-[18.2%]
                 lg:w-[32%]
-                md:w-[49%]
+                md:w-[31%]
                 sm:w-[48.2%]
                 xs:w-[100%]
                 w-[100%]
@@ -75,19 +73,26 @@ const ExploreDreamStudio = () => {
         src={exploreDreamStudio.rectDotSet}
         alt="vector11"
         className="absolute 
-        top-[20px] left-[50px]
-        md:top-[56px] md:left-[154px]
-        lg:top-[56px] lg:left-[154px]
-        xl:top-[56px] xl:left-[154px]
-        2xl:top-[56px] 2xl:left-[154px]
-      
-        "
+        top-[30px] left-[20px]
+        md:top-[35px] md:left-[40px]
+        lg:top-[56px] lg:left-[100px]
+        xl:top-[56px] xl:left-[120px]
+        2xl:top-[56px] 2xl:left-[154px] "
         quality={100}
       />
       <Image
         src={exploreDreamStudio.multipleDotRect}
         alt="vector10"
-        className="absolute top-[41px] right-[80px]"
+        className="
+        absolute 
+         right-[20px] top-[41px]
+          xs:right-[40px] xs:top-[41px]
+          sm:right-[40px] sm:top-[41px]
+          md:right-[60px] md:top-[41px]
+          lg:right-[80px] lg:top-[41px]
+         
+         
+         "
         quality={100}
       />
     </section>

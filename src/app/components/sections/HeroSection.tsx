@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <div
+    <section
       className=" flex flex-wrap
      bg-[#f9fafb] lg:text-whiteColor text-liteBlack w-full 
        relative box-border"
@@ -142,7 +142,7 @@ const HeroSection = () => {
           quality={100}
         />
       </div>
-    </div>
+    </section>
   );
 };
 
