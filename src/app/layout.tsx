@@ -40,7 +40,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <Link  rel="iccon" href="/favicon.ico"/>
+   <link rel="icon" href="/favicon.ico" sizes="any" />
       </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${interFontsBlack.variable} ${interFontsBold.variable} antialiased`}>
