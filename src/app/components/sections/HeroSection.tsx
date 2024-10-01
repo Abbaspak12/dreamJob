@@ -132,7 +132,7 @@ const HeroSection = () => {
        lg:h-[850px] lg:w-[50%] hidden lg:block
        xl:h-[850px] xl:w-[50%]
       2xl:h-[880px] 2xl:w-[50%]
-      bg-liteBlack "
+      bg-[#131921]"
       >
         <Image
           src={heroSection.heroImage}
