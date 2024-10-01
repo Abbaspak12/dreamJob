@@ -59,7 +59,7 @@ const SocialMediaInfo = () => {
             We’ve all the required Catagories that you can Explore from
           </p>
         </div>
-        <div className="pt-20 flex flex-wrap justify-center  gap-[12px] pb-36 lg:px-[250px] px-0 ">
+        <div className="pt-20 flex flex-wrap justify-center  gap-[12px] pb-36 xl:px-[250px] md:px-[50px] px-0 ">
           {socialMediaList.map((image, index) => {
             return (
               <Image

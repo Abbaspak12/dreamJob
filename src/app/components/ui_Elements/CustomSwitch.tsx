@@ -5,8 +5,7 @@ const CustomSwitch = ({ labelTittle }: { labelTittle: string }) => {
         {labelTittle}
       </span>
       <input type="checkbox" value="" className="sr-only peer " />
-      <div
-        className="relative w-[45px] h-6 bg-[#FFFFFF] peer-focus:outline-none peer-focus:ring-4
+      <div className="relative w-[45px] h-6 bg-[#FFFFFF] peer-focus:outline-none peer-focus:ring-4
      rounded-full peer
     dark:bg-[#FFFFFF] peer-checked:after:translate-x-full
      rtl:peer-checked:after:-translate-x-full 
