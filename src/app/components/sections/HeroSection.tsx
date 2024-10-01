@@ -21,9 +21,9 @@ const HeroSection = () => {
      xl:h-[720px] xl:w-[50%]
      2xl:h-[720px] 2xl:w-[50%]
    bg-liteBlack relative flex justify-center
-     lg:bg-none
+     lg:bg-none 
      bg-[url('/heroImageBanner.png')]
-    bg-cover bg-no-repeat bg-center  
+    bg-cover bg-no-repeat bg-center 
        "
       >
         <div

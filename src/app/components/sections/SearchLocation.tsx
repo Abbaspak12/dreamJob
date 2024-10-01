@@ -28,12 +28,16 @@ const SearchLocation = () => {
     border-[#D1D5DB] 
     pl-[5px] 
     lg:pl-[48px] 
-    flex items-center"
+    flex items-center md:pt-0 pt-2"
       >
         <Image
           src={heroSection.location2}
           alt="location2"
-          className=" "
+          className=" 
+          md:w-auto md:h-auto
+          w-[35px] h-[35px]
+
+           "
           quality={100}
         />
         <h1
