@@ -9,7 +9,7 @@ const HeroSection = () => {
   return (
     <section
       className=" flex flex-wrap
-     bg-whiteColor lg:text-whiteColor text-black w-full 
+     bg-whiteColor text-whiteColor w-full 
        relative box-border  "
     >
       <div
@@ -26,6 +26,7 @@ const HeroSection = () => {
     bg-cover bg-no-repeat bg-center 
        "
       >
+        <div className="absolute inset-0 bg-black opacity-40"></div>
         <div
           className="
         w-[95%]
@@ -35,7 +36,7 @@ const HeroSection = () => {
        lg:w-[60%]
        2xl:w-[60%]
       pt-[80px] 
-        2xl:pt-[140px]"
+        2xl:pt-[140px] z-20 bg-red"
         >
           <h1
             className=" font-black 
@@ -56,13 +57,13 @@ const HeroSection = () => {
           </h1>
           <p
             className=" 
-          font-normal
+         font-normal 
            text-[16px] leading-[24px]
            sm:text-[16px] sm:leading-[24px]
-           md:text-[16px] md:leading-[24px]
+           md:text-[18px] md:leading-[24px]
           lg:text-[18px] lg:leading-[28px] 
           xl:text-[20px] xl:leading-[30px] 
-          2xl:text-[20px] 2xl:leading-[32px] 
+          2xl:text-[20px] 2xl:leading-[32px]  
            pt-8"
           >
             Finding a Job that matches your skills & interest is a lot easier

@@ -46,7 +46,8 @@ const HowtoExplore = () => {
          2xl:w-[50%] lg:h-auto h-[900px]
         flex justify-center "
       >
-        <div className=" lg:pt-[175px] pt-20 w-[90%] lg:w-[80%] lg:text-liteBlack text-[#131212]">
+        <div className="absolute inset-0 bg-black opacity-55 lg:hidden block"></div>
+        <div className=" lg:pt-[175px] pt-20 w-[90%] lg:w-[80%] lg:text-liteBlack text-whiteColor z-20">
           <div className="w-full">
             <h1
               className="
@@ -164,7 +165,9 @@ const HowtoExplore = () => {
           src={ourExplore.singleLayer}
           alt="vector8"
           quality={100}
-          className="absolute left-[10%] lg:top-[129px] top-11
+          className="absolute lg:left-[10%] lg:top-[129px] top-11
+
+        left-[5%]
           
           "
         />
@@ -173,7 +176,12 @@ const HowtoExplore = () => {
         src={ourExplore.circlesRectImage}
         alt="vector8"
         quality={100}
-        className="absolute lg:right-[81px]  lg:top-[-81px] top-5 right-[40px] "
+        className="
+        absolute 
+        lg:right-[81px]  lg:top-[-81px] 
+         md:right-[81px]  md:top-[-81px]
+        top-5 right-[40px]
+        "
       />
     </section>
   );
