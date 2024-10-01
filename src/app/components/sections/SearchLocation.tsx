@@ -16,8 +16,7 @@ const SearchLocation = () => {
        lg:w-[150%] lg:left-[161px] lg:h-[112px] lg:bottom-[-58px] 
        xl:w-[150%] xl:left-[161px] 
        2xl:w-[150%] 2xl:left-[161px] 
-      md:shadow-md   rounded-lg flex flex-wrap md:gap-0  text-liteBlack"
-    >
+      md:shadow-md   rounded-lg flex flex-wrap md:gap-0  text-liteBlack">
       <div
         className="
        w-[100%]
@@ -34,7 +33,7 @@ const SearchLocation = () => {
           src={heroSection.location2}
           alt="location2"
           className=" 
-          md:w-auto md:h-auto
+          lg:w-auto lg:h-auto
           w-[35px] h-[35px]
 
            "

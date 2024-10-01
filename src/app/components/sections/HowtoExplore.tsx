@@ -85,11 +85,11 @@ const HowtoExplore = () => {
                 <div className="w-full">
                   <h1
                     className=" lg:font-extrabold  lg:text-[36px]  lg:leading-10
-            font-bold  md:text-[30px]  md:leading-8 text-[20px]"
+            font-bold  md:text-[30px]  md:leading-8 text-[20px] lg:text-liteBlack"
                   >
                     5000+
                   </h1>
-                  <p className=" font-normal md:leading-[28px] md:text-[18px] text-[16px] leading-6">
+                  <p className=" font-normal md:leading-[28px] md:text-[18px] text-[16px] leading-6 lg:text-liteBlack">
                     Total Jobs
                   </p>
                 </div>
@@ -104,11 +104,11 @@ const HowtoExplore = () => {
                 <div className="w-full">
                   <h1
                     className="lg:font-extrabold  lg:text-[36px]  lg:leading-10
-            font-bold  md:text-[30px]  md:leading-8 text-[20px]"
+            font-bold  md:text-[30px]  md:leading-8 text-[20px] lg:text-liteBlack"
                   >
                     80+
                   </h1>
-                  <p className="font-normal md:leading-[28px] md:text-[18px] text-[16px] leading-6">
+                  <p className="font-normal md:leading-[28px] md:text-[18px] text-[16px] leading-6 lg:text-liteBlack">
                     Total Employees
                   </p>
                 </div>
@@ -125,11 +125,11 @@ const HowtoExplore = () => {
                 <div className="w-full">
                   <h1
                     className=" lg:font-extrabold  lg:text-[36px]  lg:leading-10
-            font-bold  md:text-[30px]  md:leading-8 text-[20px]"
+            font-bold  md:text-[30px]  md:leading-8 text-[20px] lg:text-liteBlack"
                   >
                     2000+
                   </h1>
-                  <p className="text-liteBlack font-normal md:leading-[28px] md:text-[18px] text-[16px] leading-6">
+                  <p className="text-liteBlack font-normal md:leading-[28px] md:text-[18px] text-[16px] leading-6 lg:text-liteBlack">
                     Total Seekers
                   </p>
                 </div>
@@ -145,14 +145,11 @@ const HowtoExplore = () => {
                 <div className="w-full">
                   <h1
                     className=" lg:font-extrabold  lg:text-[36px]  lg:leading-10
-            font-bold  md:text-[30px]  md:leading-8 text-[20px]
-            
-            
-            "
+            font-bold  md:text-[30px]  md:leading-8 text-[20px] lg:text-liteBlack"
                   >
                     5 years
                   </h1>
-                  <p className="font-normal md:leading-[28px] md:text-[18px] text-[16px] leading-6">
+                  <p className="font-normal md:leading-[28px] md:text-[18px] text-[16px] leading-6 lg:text-liteBlack">
                     Total Experience
                   </p>
                 </div>
