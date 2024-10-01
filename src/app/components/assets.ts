@@ -8,22 +8,20 @@ import layerIcon from "@/assets/image/heroSection/layerIcon.svg";
 import textDotIcon from "@/assets/image/heroSection/textDotIcon.svg";
 import dotAndRectacIcon from "@/assets/image/heroSection/dotAndRectacIcon.svg";
 
-
-
 //================Social media Info ==============
-import bWhite from "@/assets/image/socialMediaInfo/bWhite.png";
-import facebookwhite from "@/assets/image/socialMediaInfo/facebookwhite.png";
-import googleWhite from "@/assets/image/socialMediaInfo/googleWhite.png";
-import instagramWhite from "@/assets/image/socialMediaInfo/instaWhite.png";
-import pWhite from "@/assets/image/socialMediaInfo/pWhite.png";
-import socail2 from "@/assets/image/socialMediaInfo/socail2.png";
-import social1 from "@/assets/image/socialMediaInfo/social1.png";
-import tuttorwhite from "@/assets/image/socialMediaInfo/tuttorwhite.png";
-import Vector from "@/assets/image/socialMediaInfo/Vector.png";
-import vectorGroup1 from "@/assets/image/socialMediaInfo/vectorGroup1.png";
-import vectorGroup2 from "@/assets/image/socialMediaInfo/vectorGroup2.png";
-import vectorGroup3 from "@/assets/image/socialMediaInfo/vectorGroup3.png";
-import lindinWhite from "@/assets/image/socialMediaInfo/linkdinWhite.png";
+import bWhite from "@/assets/image/socialMediaInfo/bWhite.svg";
+import facebookwhite from "@/assets/image/socialMediaInfo/facebookwhite.svg";
+import googleWhite from "@/assets/image/socialMediaInfo/googleWhite.svg";
+import instagramWhite from "@/assets/image/socialMediaInfo/instaWhite.svg";
+import pWhite from "@/assets/image/socialMediaInfo/pWhite.svg";
+import socail2 from "@/assets/image/socialMediaInfo/socail2.svg";
+import social1 from "@/assets/image/socialMediaInfo/social1.svg";
+import tuttorwhite from "@/assets/image/socialMediaInfo/tuttorwhite.svg";
+import rectIccon from "@/assets/image/socialMediaInfo/rectIccon.svg";
+import closeCirleLayer from "@/assets/image/socialMediaInfo/closeCirleLayer.svg";
+import layerRectClose from "@/assets/image/socialMediaInfo/layerRectClose.svg";
+import closeRectCirle from "@/assets/image/socialMediaInfo/closeRectCirle.svg";
+import lindinWhite from "@/assets/image/socialMediaInfo/linkdinWhite.svg";
 
 //================Our Team ==============
 import girl1 from "@/assets/image/ourTeam/girls1.png";
@@ -111,10 +109,10 @@ const socialMediaInfo = {
   socail2,
   social1,
   tuttorwhite,
-  Vector,
-  vectorGroup1,
-  vectorGroup2,
-  vectorGroup3,
+  rectIccon,
+  closeCirleLayer,
+  layerRectClose,
+  closeRectCirle,
   lindinWhite,
 };
 

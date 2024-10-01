@@ -71,7 +71,7 @@ const SocialMediaInfo = () => {
         </div>
       </div>
       <Image
-        src={socialMediaInfo.vectorGroup3}
+        src={socialMediaInfo.closeRectCirle}
         alt="vectorGroup3"
         quality={100}
         className="absolute 
@@ -85,7 +85,7 @@ const SocialMediaInfo = () => {
           hidden md:block"
       />
       <Image
-        src={socialMediaInfo.vectorGroup2}
+        src={socialMediaInfo.layerRectClose}
         alt="vectorGroup2"
         quality={100}
         className="absolute 
@@ -98,7 +98,7 @@ const SocialMediaInfo = () => {
     2xl:right-[90px] 2xl:top-[50px]    hidden md:block"
       />
       <Image
-        src={socialMediaInfo.vectorGroup1}
+        src={socialMediaInfo.closeCirleLayer}
         alt="vectorGroup1"
         quality={100}
         className="absolute 
@@ -114,7 +114,7 @@ const SocialMediaInfo = () => {
         "
       />
       <Image
-        src={socialMediaInfo.Vector}
+        src={socialMediaInfo.rectIccon}
         alt="Vector"
         quality={100}
         className="absolute right-[140px] bottom-[120px]   hidden md:block"
