@@ -3,6 +3,9 @@ import localFont from "next/font/local";
 import "./globals.css";
 import "@radix-ui/themes/styles.css";
 import { Theme } from "@radix-ui/themes";
+import Head from "next/head";
+import Link from "next/link";
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -36,6 +39,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <Link href="/favicon.ico" rel="iccon"/>
+      </Head>
+     
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${interFontsBlack.variable} ${interFontsBold.variable} antialiased`}
       >
