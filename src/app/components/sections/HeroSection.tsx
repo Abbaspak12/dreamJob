@@ -10,7 +10,7 @@ const HeroSection = () => {
     <section
       className=" flex flex-wrap
      bg-whiteColor lg:text-whiteColor text-black w-full 
-       relative box-border"
+       relative box-border  "
     >
       <div
         className="w-[100%]  h-[650px]
@@ -23,7 +23,7 @@ const HeroSection = () => {
    bg-liteBlack relative flex justify-center
      lg:bg-none
      bg-[url('/heroImageBanner.png')]
-    bg-cover bg-no-repeat bg-center
+    bg-cover bg-no-repeat bg-center  
        "
       >
         <div

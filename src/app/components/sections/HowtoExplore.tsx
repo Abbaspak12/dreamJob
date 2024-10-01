@@ -41,12 +41,12 @@ const HowtoExplore = () => {
          xs:w-[100%]
          sm:w-[100%]
          md:w-[100%] pb-40
-         lg:w-[50%] lg:bg-none lg:pb-0
+         lg:w-[50%] lg:bg-none lg:pb-0  
          xl:w-[50%]
-         2xl:w-[50%]
+         2xl:w-[50%] lg:h-auto h-[900px]
         flex justify-center "
       >
-        <div className=" lg:pt-[175px] pt-20 w-[90%] lg:w-[80%] lg:text-liteBlack text-black ">
+        <div className=" lg:pt-[175px] pt-20 w-[90%] lg:w-[80%] lg:text-liteBlack text-[#131212]">
           <div className="w-full">
             <h1
               className="
@@ -83,7 +83,7 @@ const HowtoExplore = () => {
                 />
                 <div className="w-full">
                   <h1
-                    className="text-liteBlack lg:font-extrabold  lg:text-[36px]  lg:leading-10
+                    className=" lg:font-extrabold  lg:text-[36px]  lg:leading-10
             font-bold  md:text-[30px]  md:leading-8 text-[20px]"
                   >
                     5000+
@@ -123,7 +123,7 @@ const HowtoExplore = () => {
                 />
                 <div className="w-full">
                   <h1
-                    className="text-liteBlack lg:font-extrabold  lg:text-[36px]  lg:leading-10
+                    className=" lg:font-extrabold  lg:text-[36px]  lg:leading-10
             font-bold  md:text-[30px]  md:leading-8 text-[20px]"
                   >
                     2000+
@@ -143,7 +143,7 @@ const HowtoExplore = () => {
                 />
                 <div className="w-full">
                   <h1
-                    className="text-liteBlack lg:font-extrabold  lg:text-[36px]  lg:leading-10
+                    className=" lg:font-extrabold  lg:text-[36px]  lg:leading-10
             font-bold  md:text-[30px]  md:leading-8 text-[20px]
             
             
@@ -151,7 +151,7 @@ const HowtoExplore = () => {
                   >
                     5 years
                   </h1>
-                  <p className="text-liteBlack font-normal md:leading-[28px] md:text-[18px] text-[16px] leading-6">
+                  <p className="font-normal md:leading-[28px] md:text-[18px] text-[16px] leading-6">
                     Total Experience
                   </p>
                 </div>
