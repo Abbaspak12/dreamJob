@@ -24,6 +24,9 @@ const SocialMediaInfo = () => {
       ImagePath: socialMediaInfo.lindinWhite,
     },
     {
+      ImagePath: socialMediaInfo.instagramWhite,
+    },
+    {
       ImagePath: socialMediaInfo.social1,
     },
 
